@@ -1,17 +1,44 @@
 \newlength{\ColumnWidth}
 \setlength{\ColumnWidth}{0.315\paperwidth}
 
+
+
 \begin{columns}[t]
     \begin{columns}[t,totalwidth=1.0\paperwidth] % split up that three-column-wide column
-      \begin{column}{0.25\paperwidth} \input{./tex/MultiMuons1_CDF.tex} \end{column}
-      \begin{column}{0.45\paperwidth} \input{./tex/Professor.tex} \end{column}
-      \begin{column}{0.3\paperwidth} \input{./tex/MultiMuons2_CDF.tex} \end{column}
+      \begin{column}{0.25\paperwidth} \input{./tex/HExtended.tex} \end{column}
+      \begin{column}{0.75\paperwidth} \input{./tex/Professor.tex} \end{column}
     \end{columns}
   \end{columns}
 
 \begin{columns}[t]
     \begin{columns}[t,totalwidth=1.0\paperwidth] % split up that three-column-wide column
-      \begin{column}{0.35\paperwidth} \input{./tex/TopQuark_Tevatron.tex} \end{column}
-      \begin{column}{0.35\paperwidth} \input{./tex/HiggsBoson_LHC.tex} \end{column}
+      \begin{column}{0.35\paperwidth} \input{./tex/HPlus2tb.tex}\end{column} 
+      \begin{column}{0.35\paperwidth}  \input{./tex/HiggsBoson_LHC.tex} \end{column}
     \end{columns}
+\end{columns}
+
+\begin{columns}[t]
+  \begin{columns}[t,totalwidth=1.0\paperwidth] % split up that three-column-wide column
+    \begin{column}{0.27\paperwidth} \input{./tex/MultiMuons1_CDF.tex} \end{column}
+    \begin{column}{0.27\paperwidth} \input{./tex/HPlus2HW.tex} \end{column}
+    \begin{column}{0.4\paperwidth} \input{./tex/TopQuark_Tevatron.tex} \input{./tex/MultiMuons2_CDF.tex}\end{column}
   \end{columns}
+\end{columns}
+
+%    \begin{columns}[t]
+%    \begin{columns}[t,totalwidth=1.0\paperwidth] % split up that three-column-wide column
+%      \begin{column}{0.25\paperwidth} \input{./tex/MultiMuons1_CDF.tex} \input{./tex/HExtended.tex} \end{column}
+%      \begin{column}{0.33\paperwidth} \input{./tex/Professor.tex} \end{column}
+%      \begin{column}{0.35\paperwidth} \input{./tex/MultiMuons2_CDF.tex} \end{column}
+%    \end{columns}
+%  \end{columns}
+
+
+%\begin{columns}[t]
+%    \begin{columns}[t,totalwidth=1.0\paperwidth] % split up that three-column-wide column
+%      \begin{column}{0.35\paperwidth} \input{./tex/TopQuark_Tevatron.tex} \end{column}
+%      \begin{column}{0.35\paperwidth}  \input{./tex/HiggsBoson_LHC.tex} \end{column}
+%      \begin{column}{0.25\paperwidth} \input{./tex/HPlus2HW.tex} \end{column}
+%    \end{columns}
+%  \end{columns}
+
