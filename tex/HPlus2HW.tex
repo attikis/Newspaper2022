@@ -1,0 +1,45 @@
+% https://gitlab.cern.ch/tdr/papers/HIG-21-010/-/tree/master/
+% new tcolorbox environment
+\newtcolorbox{topQuark}[2][]{
+  coltext      = black,
+  colframe     = \MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorLeft,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = black,
+  title        = {\Large{\textbf{#2}}},
+  fonttitle    = \bfseries,
+  boxrule      = 0.2cm, %frame line width
+  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
+  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  %enlarge left by  = +1.5cm,  
+  %enlarge right by = +0.0cm, 
+  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  arc=0.0cm,        % 0.0cm for non-rounded corners!
+  #1,
+}
+
+% CMS
+\begin{topQuark}[enhanced, tikz={rotate=0}]{Higgs boson: a tool to
+    discover new physics: $H^{\pm}$}
+  \begin{multicols}{2}
+  A search for a charged Higgs boson $H^{\pm}$ decaying
+  into a heavy neutral Higgs boson $H$ and a $W$ boson
+  is presented. The analysis targets the $W$ decay into a pair
+  of tau leptons with at least one of them decaying hadronically and
+  with an additional electron or muon present in the event.
+  The search is based on proton-proton collision data
+  recorded by the CMS experiment during 2016--2018 at
+  $\sqrt{s} = 13~TeV$, corresponding to an integrated
+  luminosity of 138~$fb^{-1}$. The data are consistent with
+  standard model background expectations. Upper limits at 95$\%$ confidence
+  level are set on the product of the cross section and branching fraction
+  for an $H^{\pm}$ in the mass range of 300--700 GeV, assuming an $H$ 
+  with a mass of 200 GeV. The observed limits range from
+  0.085 $pb$ for an $H^{\pm}$ mass of
+  300 $GeV$ to 0.019~$pb$ for a mass of
+  700 $GeV$. These are the first limits on $H^{\pm}$
+  production in the $H^{\pm} \to H W^{\pm}$ decay channel at the LHC.
+  \end{multicols}
+\end{topQuark}

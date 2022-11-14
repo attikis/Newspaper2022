@@ -1,0 +1,46 @@
+% new tcolorbox environment
+\newtcolorbox{topQuark}[2][]{
+  coltext      = black,
+  colframe     = \MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorLeft,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = black,
+  title        = {\Large{\textbf{#2}}},
+  fonttitle    = \bfseries,
+  boxrule      = 0.2cm, %frame line width
+  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
+  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  %enlarge left by  = +1.5cm,  
+  %enlarge right by = +0.0cm, 
+  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  arc=0.0cm,        % 0.0cm for non-rounded corners!
+  #1,
+}
+
+% https://arxiv.org/abs/0710.1895
+\begin{topQuark}[enhanced, tikz={rotate=0}]{Measurement of correlated
+    $b\bar{b}$ production}
+  \begin{multicols}{2}
+    We present a measurement of the correlated $b\bar{b}$ production cross
+    section. The data used in this analysis were taken with the upgraded
+    CDF detector (CDF II) at the Fermilab Tevatron collider, and
+    correspond to an integrated luminosity of 742 pb−1. We utilize muon
+    pairs with invariant mass $5 \leq m_{\mu\mu} \leq 80 \gevcc$
+    produced by bb¯ double semileptonic decays. For muons with
+    $p_T \geq 3 \gevc$ and $|\eta| \le $0.7, that are produced by $b$
+    and $\bar{b}$ quarks with $p_T \geq 2 \gevc$ and $|y|\le$1.3, we
+    measure $\sigma_{b\rightarrow \mu, \bar{b} \rightarrow
+      \mu}$=1549$\pm$133 $pb$.
+    We compare this result with theoretical predictions and previous
+    measurements.
+    We also report the measurement of $\sigma_{c\rightarrow \mu, \bar{c}\rightarrow \mu}$, a by-product of the study of the background to $b\bar{b}$ production.  
+  \end{multicols}
+\end{topQuark}
+
+\begin{topQuark}[enhanced, tikz={rotate=0}]{Measurement of correlated $b\bar{b}$ production with first CMS data!}
+  \begin{multicols}{2}
+    A measurement of the inclusive cross section for the process pp to b b-bar X to muon muon X' at $\sqrt{s}$ = 7 TeV is presented, based on a data sample corresponding to an integrated luminosity of 27.9 inverse picobarns collected by the CMS experiment at the LHC. By selecting pairs of muons each with pseudorapidity $\abs{eta}$<2.1, the value of the cross section for pp to b b-bar X to muon muon X' is found to be 26.4 +/- 0.1 (stat.) +/- 2.4 (syst.) +/- 1.1 (lumi.) nb is obtained for muons with transverse momentum greater than 4 GeV, and 5.12 +/- 0.03 (stat.) +/- 0.48 (syst.) +/- 0.20 (lumi.) nb for transverse momenta greater than 6 GeV. These results are compared to QCD predictions at leading and next-to-leading orders.
+  \end{multicols}
+\end{topQuark}
