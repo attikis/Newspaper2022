@@ -1,0 +1,51 @@
+% new tcolorbox environment
+\newtcolorbox{topQuark}[2][]{
+  coltext      = black,
+  colframe     = \MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorLeft,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = black,
+  title        = {\Large{\textbf{#2}}},
+  fonttitle    = \bfseries,
+  boxrule      = 0.2cm, %frame line width
+  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
+  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  %enlarge left by  = +1.5cm,  
+  %enlarge right by = +0.0cm, 
+  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  arc=0.0cm,        % 0.0cm for non-rounded corners!
+  #1,
+}
+
+% CMS
+\begin{topQuark}[enhanced, tikz={rotate=0}]{Physicists Find Elusive Particle Seen as Key to Universe}
+  \begin{multicols}{2}
+    Results are presented from searches for the standard model Higgs
+    boson in proton–proton collisions at and 8 TeV in the Compact Muon
+    Solenoid experiment at the LHC, using data samples corresponding
+    to integrated luminosities of up to 5.1 fb$^{−1}$ at 7 TeV and 5.3 fb$^{−1}$
+    at 8 TeV. The search is performed in five decay modes:
+    $\gamma\gamma$, $ZZ$,  $\tau^{+}\tau^{-}$, and $b\bar{b}$.
+    An excess of events is observed above the expected background,
+    with a local significance of 5.0 standard deviations, at a mass
+    near 125 GeV, signalling the production of a new particle. The
+    expected significance for a standard model Higgs boson of that
+    mass is 5.8 standard deviations. The excess is most significant in
+    the two decay modes with the best mass resolution, $\gamma\gamma$ and $ZZ$; a
+    fit to these signals gives a mass of 
+    $125.3\pm0.4(\text{stat.})\pm0.5(\text{syst.}$ GeV. The decay to
+    two photons indicates that the new particle is a boson with spin 
+    different from one. 
+    % ========================
+    \begin{figure}
+      \begin{center}
+        \vspace{-0.2in}
+        \leavevmode
+        \includegraphics[width=0.5\textwidth]{./figures/HiggsBosonDiscoveryBW.png}
+      \end{center}
+    \end{figure}
+    % ========================
+  \end{multicols}
+\end{topQuark}

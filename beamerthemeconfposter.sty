@@ -1,0 +1,91 @@
+% =======================================================================
+% Build Poster Title
+% =======================================================================
+\setbeamertemplate{headline}{
+  \begin{beamercolorbox}[]{headlineColors}
+    \leavevmode
+    \begin{columns}[t]
+      \begin{columns}[t,totalwidth=1.0\paperwidth] % split up that three-column-wide column
+        %
+        \begin{column}{0.20\paperwidth}
+          \Large
+          \vskip1.0cm                  
+          \centering
+          \today
+          \\
+          Today's Paper
+          \vspace{0.1cm}
+        \end{column}
+        %
+        \begin{column}{0.6\paperwidth}
+        %\noindent\makebox[\linewidth]{\color{\MyHeadingsColor}\rule{\paperwidth}{0.3cm}}
+        \vskip1.0cm
+        \centering        
+        \usebeamercolor{title in headline}    {\VERYHuge{\inserttitle} \\\vspace{1cm}}
+        %\usebeamercolor{author in headline}   {\VERYHuge{\insertauthor}\vspace{0.5cm}\\}
+        %\usebeamercolor{institute in headline}{\VERYHuge{\insertinstitute}\\}
+        %\usebeamercolor{date in headline}     {\VERYHuge{\today}\\[1ex]}
+        \vspace{0.1cm}
+        %\noindent\makebox[\linewidth]{\color{\MyHeadingsColor}\rule{\paperwidth}{0.3cm}}
+        \end{column}
+        %
+        \begin{column}{0.20\paperwidth}
+          \Large
+          \vskip1.0cm                  
+          \centering          
+          \textcolor{yellow}{\Sun} 20 \tccentigrade \qquad 26 \tccentigrade \quad 13 \tccentigrade
+          %\wind{4}{30}{50} \bf{20 \tccentigrade} \qquad 26 \tccentigrade \quad 13 \tccentigrade
+          \\
+          Dow \quad \textcolor{green}{+0.1\%} \quad $\uparrow$
+          \vspace{0.1cm}          
+        \end{column}
+        
+    \end{columns}
+  \end{columns}
+
+    %\hrulefill
+    \rule{\paperwidth}{0.5mm}
+    \begin{center}
+      \bf
+      \hfill
+      World \hfill U.S. \hfill Politics \hfill N.Y.
+      \hfill Business \hfill  Opinion \hfill Tech
+      \hfill Science \hfill Health \hfill Sports
+      \hfill Arts \hfill Books \hfill Style
+      \hfill Food \hfill Travel \hfill Magazine
+      \hfill T Magazine
+      \hfill Real Estate \hfill Video
+      \hfill
+    \end{center}
+    \dotfill
+    \rule{\paperwidth}{0.5mm}
+    \rule{\paperwidth}{0.5mm}
+  \end{beamercolorbox}
+
+}
+
+
+\begin{comment}
+  \setbeamercolor{headlineColors}{fg=red, bg=\MyHeadingsColor}
+
+\setbeamertemplate{headline}{
+  \begin{beamercolorbox}[]{headlineColors}
+    \leavevmode
+    \begin{columns}
+      \begin{column}{\linewidth}
+        \noindent\makebox[\linewidth]{\color{\MyHeadingsColor}\rule{\paperwidth}{0.3cm}}
+        \vskip1.0cm
+        \centering
+        \usebeamercolor{title in headline}    {\color{kWhite} \Huge{\textbf{\inserttitle}}\\\vspace{1cm}}
+        \usebeamercolor{author in headline}   {\Large{\insertauthor}\vspace{0.5cm}\\}
+        \usebeamercolor{institute in headline}{\large{\insertinstitute}\\}
+        \usebeamercolor{date in headline}     {\large{\today}\\[1ex]}
+        \vspace{0.1cm}
+        \noindent\makebox[\linewidth]{\color{\MyHeadingsColor}\rule{\paperwidth}{0.3cm}}
+      \end{column}
+    \end{columns}
+\end{beamercolorbox}
+
+}
+
+\end{comment}

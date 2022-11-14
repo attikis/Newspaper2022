@@ -1,0 +1,27 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% File .......... : Bibliography.tex
+%% Author ........ : Alexandros X. Attikis
+%% Institute ..... : University of Cyprus (UCY)
+%% e-Mail ........ : attikis@cern.ch
+%% Comments ...... : 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Now get rid of all the colours
+\setbeamercolor*{bibliography entry title}{fg=black,bg=white}
+\setbeamercolor*{bibliography entry author}{fg=black,bg=white}
+\setbeamercolor*{bibliography entry location}{fg=black,bg=white}
+\setbeamercolor*{bibliography entry note}{fg=black,bg=white}
+\setbeamercolor{bibliography item}{fg=black,bg=white}
+\setbeamercolor*{bibliography entry title}{fg=black,bg=white}
+\setbeamertemplate{bibliography item}[text] 
+
+%%%%%%%%%%%%%%%
+\Slide{t, allowframebreaks}{
+
+  \footnotesize
+  This is just a test ~\cite{PAPER-HIG-11-019,PhysRevLett.19.1264}. Please remove me.
+  \bibliographystyle{lucas_unsrt} 
+  \bibliography{references}
+  \normalsize
+
+}
+%%%%%%%%%%%%%%%

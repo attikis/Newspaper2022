@@ -1,0 +1,91 @@
+% =======================================================================
+%% Font packages (see http://www.ctan.org/topic/font-greek)
+% =======================================================================
+% \usepackage[english,greek]{babel} 
+% \usepackage[utf8]{inputenc}
+% %\usepackage{lmodern}     %ruins some characters (for example, \Delta in math mode)
+% \usepackage{kmath,kerkis} %use kmath for better math letters!
+% \usepackage[T1]{fontenc}
+
+\usepackage{fontspec}
+%\setsansfont{Liberation Serif}
+%\usepackage[english]{babel} 
+%\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{kmath}
+%\usepackage[T1]{fontenc}
+
+% =======================================================================
+%% Other packages
+% =======================================================================
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage[countmax]{subfloat}
+%\usepackage{showkeys} %uncomment to use. modifies the \label,\ref,\pageref, \cite and \bibitem commands so that the `internal' key is printed.
+\usepackage{fancybox}
+\usepackage{subfig}
+% \let\subfigure\subfloat% compatibility between subfigure and subfig packages 
+\usepackage{ifthen}
+\usepackage{xcolor}
+\usepackage{xspace} 
+\usepackage{textcomp} %for degrees symbol 
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}% for advanced math typesetting % amsmath provides split
+\usepackage{fancyhdr} %enables use of heaters/footers
+\usepackage{bibentry} % for in-line full citations
+\usepackage{gensymb} %for degrees symbol
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\usepackage{multimedia} % can be used to show movies (mp4, avi, etc..) with: \movie[options]{}{film.avi}
+\usepackage{kantlipsum} 
+\usepackage{nicefrac}
+\usepackage{eso-pic} %position logo anywhere you want
+\usepackage{textcomp,mathcomp} % degrees celcius
+\usepackage[weather]{ifsym} % sun symbol
+\usepackage{lipsum}
+
+% =======================================================================
+%% TikZ packages
+% =======================================================================
+\usepackage{varwidth}
+\usepackage{tikz}
+%\usepackage{animate}
+\usepackage{media9}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{decorations.pathreplacing}
+ \usetikzlibrary{decorations.text}
+\usetikzlibrary{shapes}
+\usetikzlibrary{patterns}
+\tcbuselibrary{skins, xparse}
+\usetikzlibrary{calc}
+\tcbuselibrary{hooks}
+%\usepackage{pgfplots,tikz}
+\usetikzlibrary{automata,positioning}
+
+
+% =======================================================================
+%% Setup Hyperref package: Enables hyper-referencing 
+% =======================================================================
+\usepackage{hyperref}
+\hypersetup{
+  plainpages=false, 
+  unicode=true,                      % non-Latin (e.g. Greek) characters in Acrobat bookmarks?
+  pdftoolbar=false,                  % show Acrobat toolbar?
+  pdfmenubar=false,                  % show Acrobat menu?
+  pdffitwindow=false,                % window fit to page when opened?
+  pdfstartview={FitV},               % fits the page-width to the window?
+  pdftitle={Fotios Ptochos},         % title of the document
+  pdfsubject={Particle Physics},     % subject of the document
+  pdfcreator={Alexandros Attikis},   % creator of the document
+  pdfauthor={Alexandros Attikis},    % author of the document
+  pdfproducer={Beamer/LaTeX},        % producer of the document
+  pdfkeywords={{Fotios}{Ptochos}{Professor}{UCY}{Physics}{HEP}{CMS}{CERN}{FNAL}}, %keywords?
+  pdfnewwindow=false,                % links in new window?
+  colorlinks=false,                  % false: boxed links ,  true: colored links
+  linkcolor=black,                   % color of internal links
+  citecolor=black,                   % color of links to bibliography
+  filecolor=black,                   % color of file links
+  urlcolor=black,                    % color of external links
+}

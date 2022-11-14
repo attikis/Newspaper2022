@@ -1,0 +1,269 @@
+%\newcommand{\en}{\selectlanguage{english}}
+%\newcommand{\gr}{\selectlanguage{greek}}
+
+\newcommand\PutLogo[3]{%
+  \AtPageLowerLeft{%
+    \put(\LenToUnit{#1\paperwidth},\LenToUnit{#2\paperheight}){#3}}%
+}
+
+\newcommand{\MakePosterLogos}[4]{ %%% do NOT remove '%' at line end`
+  \AddToShipoutPictureFG{
+    \PutLogo{0.010}{0.924}{\includegraphics[height=0.10\paperwidth,keepaspectratio]{./figures/logos/#1}}%
+    \PutLogo{0.115}{0.924}{\includegraphics[height=0.10\paperwidth,keepaspectratio]{./figures/logos/#2}}%
+    \PutLogo{0.785}{0.924}{\includegraphics[height=0.10\paperwidth,keepaspectratio]{./figures/logos/#3}}%
+    \PutLogo{0.890}{0.924}{\includegraphics[height=0.10\paperwidth,keepaspectratio]{./figures/logos/#4}}%
+%    \PutLogo{0.1}{0.925}{\includegraphics[width=0.10\paperwidth,keepaspectratio]{./figures/logos/#1}}%
+%    \PutLogo{0.0}{0.925}{\includegraphics[width=0.10\paperwidth,keepaspectratio]{./figures/logos/#2}}%
+%    \PutLogo{0.8}{0.925}{\includegraphics[width=0.10\paperwidth,keepaspectratio]{./figures/logos/#3}}%
+%    \PutLogo{0.9}{0.925}{\includegraphics[width=0.10\paperwidth,keepaspectratio]{./figures/logos/#4}}%
+  }
+}
+
+\newcommand{\MakePosterColumns}[3]{
+\newlength{\ColumnWidth}
+\setlength{\ColumnWidth}{0.315\paperwidth}
+\begin{columns}[t]
+    \begin{columns}[t,totalwidth=1.0\paperwidth] % split up that three-column-wide column
+      \begin{column}{\ColumnWidth} \input{./tex/#1.tex} \end{column}
+      \begin{column}{\ColumnWidth} \input{./tex/#2.tex} \end{column}
+      \begin{column}{\ColumnWidth} \input{./tex/#3.tex} \end{column}    
+    \end{columns}
+  \end{columns}
+}
+
+% =======================================================================
+% Colour definitions. See: http://en.wikipedia.org/wiki/Web_colors
+% =======================================================================
+\definecolor{kBlack}      {RGB}{  0,   0,   0}
+\definecolor{kWhite}      {RGB}{255, 255, 255}
+\definecolor{kPink}       {RGB}{227,  74, 147}
+\definecolor{kNavyBlue}   {RGB}{ 28, 130, 185}
+\definecolor{kDarkBlue}   {RGB}{  0,   0, 214}
+\definecolor{kLightBlue}  {RGB}{  0,  61, 245}
+\definecolor{kvLightBlue} {RGB}{  0, 184, 245}
+\definecolor{kMyBlue}     {RGB}{ 51, 102, 255}
+\definecolor{kHLTausBlue} {RGB}{ 11,  36, 251}
+\definecolor{kBlue}   {RGB}{ 51, 102, 255}
+\definecolor{kGreen}  {RGB}{ 98, 158,  31}
+\definecolor{kLightGreen}{RGB}{223, 254,  191}
+\definecolor{kRed}    {RGB}{220,   0,   0}
+\definecolor{kOrange} {RGB}{230, 120,  20}
+\definecolor{kYellow} {RGB}{255, 221,   0}
+\definecolor{kBlue}   {RGB}{ 10,  50, 150}
+\definecolor{kBrown}  {RGB}{120,  89,  30}
+\definecolor{kPink}   {RGB}{255,   0, 128}
+
+% =======================================================================
+% Customise tcolorboxes (package "tcolorbox")
+% =======================================================================
+\tcbset{
+    noparskip,
+    coltitle  = green,
+    colframe  = pink,
+    colback   = orange,
+    coltext   = yellow,
+    fonttitle =\normalsize, 
+    posterStyle/.style = {coltitle=red, colframe=brown, colback=brown, coltext=red, fonttitle = \Large},
+    boxsep       = +0.20cm,   % Title Box Height
+    top          = +0.50cm,   % Top Margin (from Title box line)
+    bottom       = +0.00cm,   % Bottom Margin 
+    left         = +0.10cm,   % Left Margin
+    right        = +0.10cm,   % Right Margin
+    toptitle     = +0.10cm,   % ?
+    bottomtitle  = +0.10cm,   % ?
+    arc          = +0.8cm,
+    nobeforeafter,
+    %center title,
+}
+    
+% new tcolorbox environment
+\newtcolorbox{MyColumnLeft}[3][]{
+  coltext      = \MyFontColor,
+  colframe     = \MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorLeft,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = \MyHeadingsColor,
+  title        = \Large{\bfseries{#2\\}},
+  boxrule      = 0.2cm, %frame line width
+  height       = #3,
+  enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  enlarge left by  = +1.5cm,  
+  enlarge right by = +0.0cm, 
+  #1,
+}
+
+% new tcolorbox environment
+\newtcolorbox{MyColumnCenter}[3][]{
+  coltext      = \MyFontColor,
+  colframe     = \MyBlockFrameColorCenter,
+  colback      = \MyBlockFillColorCenter,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = \MyHeadingsColor,
+  title        = \Large{\textbf{#2\\}},
+  boxrule      = 0.2cm, %frame line width
+  height       = #3,
+  enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  enlarge left by  = +0.0cm,  
+  enlarge right by = +0.0cm, 
+   #1,
+}
+
+
+% new tcolorbox environment
+\newtcolorbox{MyColumnRight}[3][]{
+  coltext      = \MyFontColor,
+  colframe     = \MyBlockFrameColorRight,
+  colback      = \MyBlockFillColorRight,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = \MyHeadingsColor,
+  title        = \Large{\textbf{#2\\}},
+  boxrule      = 0.2cm, %frame line width
+  height       = #3,
+  enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  enlarge left by  = -1.5cm,
+  enlarge right by = +0.0cm,
+  #1,
+}
+
+% =======================================================================
+% Block format/colour definitions
+% =======================================================================
+\newcommand{\CustomiseColours}[7]{
+  \newcommand{\MyFontColor}{#1}
+  \newcommand{\MyHeadingsColor}{#2}
+  \newcommand{\MyBlockFillColorLeft}{#3}
+  \newcommand{\MyBlockFrameColorLeft}{#3}
+  \newcommand{\MyBlockFillColorCenter}{#4}
+  \newcommand{\MyBlockFrameColorCenter}{#4}
+  \newcommand{\MyBlockFillColorRight}{#5}
+  \newcommand{\MyBlockFrameColorRight}{#5}
+  \newcommand{\MyBlockTitleBoxColor}{#6}
+  \newcommand{\MyBackgroundColour}{#7}
+  \setbeamercolor{background canvas}{bg=\MyBackgroundColour}
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamercolor{block title}{fg=\MyFontColor, bg=black}
+  \setbeamercolor{block body} {fg=\MyBlockFillColor, bg=black} 
+  \setbeamercolor{block alerted title}{fg=red, bg=pink}
+  \setbeamercolor{block alerted body} {fg=red, bg=pink}
+}
+
+% =======================================================================
+% Footer
+% =======================================================================
+\setbeamercolor{title in head/foot}{fg=black, bg=\MyBackgroundColour}
+\newcommand{\FooterHeight}{0.8cm}
+\newcommand{\FooterBoxDepth}{0.6cm} % The depth of a box is the distance between the baseline and the bottom of the box;
+
+% Footer
+\newcommand{\CustomiseFooter}[3]{
+  \setbeamertemplate{footline}{
+    \leavevmode
+    \hbox{\begin{beamercolorbox}[wd=1.0\paperwidth,ht=\FooterHeight, dp=\FooterBoxDepth, leftskip=0.01\paperwidth, rightskip=0.01\paperwidth]{title in head/foot}
+        \usebeamerfont{title in head/foot}  #1 \hfill #2 \hfill #3
+      \end{beamercolorbox}
+    }
+  }
+}
+
+% Footer (Alternative)
+\newcommand{\CustomiseFooterAlt}[3]{
+  \setbeamercolor{title in head/foot}{fg=#1,bg=#2}
+  \setbeamertemplate{footline}{
+    \leavevmode
+    \hbox{\begin{beamercolorbox}[wd=1.0\paperwidth, ht=\FooterHeight, dp=\FooterBoxDepth]{title in head/foot}
+        \usebeamerfont{title in head/foot}  \centering \normalsize{#3}
+      \end{beamercolorbox}
+    }
+  }
+}
+
+
+% =======================================================================
+% Figures
+% =======================================================================
+\newcommand{\oneSubFig}[3]{
+  \includegraphics[width=#3\textwidth,keepaspectratio]{figures/#2}
+  \label{fig:#1}
+}
+
+\newcommand{\oneFigPosterNoCaption}[3]{
+  \begin{figure}[tbp]  
+      \begin{columns}
+        \begin{column}{0.99\textwidth}
+          \centering
+          \includegraphics[width=#3\textwidth,keepaspectratio]{figures/#2}
+          \label{fig:#1}
+        \end{column}
+      \end{columns}
+  \end{figure}
+}
+
+
+\newcommand{\oneFigPoster}[4]{
+  \begin{figure}[tbp]
+    \def\figurename{Εικόνα}
+      \begin{columns}
+        \begin{column}{0.99\textwidth}
+          \centering
+          \includegraphics[width=#3\textwidth,keepaspectratio]{figures/#2}
+          \label{fig:#1}
+        \end{column}
+      \end{columns}
+    \caption{#4}
+  \end{figure}
+}
+
+\newcommand{\twoFigPoster}[6]{
+  \begin{figure}[tbp]
+    \def\figurename{Εικόνα}
+      \begin{columns}
+        \begin{column}{0.47\textwidth}
+          \oneSubFig{#1_a}{#2}{#3}
+        \end{column}
+        \begin{column}{0.47\textwidth}
+          \oneSubFig{#1_b}{#4}{#5}
+        \end{column}
+      \end{columns}
+    \caption{#6}
+  \end{figure}
+}
+
+\newcommand{\twoFigPosterNoCaption}[5]{
+  \begin{figure}[tbp]
+      \begin{columns}
+        \begin{column}{0.47\textwidth}
+          \oneSubFig{#1_a}{#2}{#3}
+        \end{column}
+        \begin{column}{0.47\textwidth}
+          \oneSubFig{#1_b}{#4}{#5}
+        \end{column}
+      \end{columns}
+  \end{figure}
+}
+
+\newcommand{\twoFigColumnsPoster}[6]{
+  \begin{figure}[tbp]
+    \begin{columns}
+      \begin{column}{0.5\textwidth}
+        \begin{tcolorbox}[posterStyle]
+          \oneSubFig{#1_a}{#2}{#3}
+    \end{tcolorbox}
+      \end{column}
+      \begin{column}{0.5\textwidth}
+        \begin{tcolorbox}[posterStyle]
+          \oneSubFig{#1_b}{#4}{#5}
+    \end{tcolorbox}       
+      \end{column}
+  \end{columns}
+    \caption{#6}
+  \end{figure}
+}
+
+% =======================================================================
+% Enumerate Customisations (TikZ)
+% =======================================================================
+\newcommand*\circled[2]{\tikz[baseline=(char.base)]{  \node[circle, ball color=#2, inner sep=0.1cm] (char) {\textcolor{kWhite}#1};}}
+\newcommand*\rounded[2]{\tikz[baseline=(char.base)]{ \node[draw=none,ball color=#2, shade, rounded corners=3.5pt, inner sep=0.1cm] (char) {\textcolor{kWhite}{#1}};}}

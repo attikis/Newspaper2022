@@ -1,0 +1,58 @@
+\documentclass[14pt,usenames,dvipsnames,professionalfonts]{beamer}
+
+
+% =======================================================================
+% Packages & definitions
+% =======================================================================
+\usepackage[orientation=portrait,size=a3,scale=1.0,debug]{beamerposter}
+%\usepackage[orientation=portrait,a0,scale=1.0,debug]{beamerposter}
+
+\input{./tex/Packages.tex}
+\input{./tex/BeamerCommands.tex}
+\input{./tex/LatexCommands.tex}
+
+
+% =======================================================================
+% Define column width and poster size
+% =======================================================================
+\usetheme{confposter}
+
+
+% =======================================================================
+% Define Colours
+% =======================================================================
+\CustomiseColours
+    {red!50!white} % \MyFontTitleColor (?) 
+    {red!30!black} % \MyHeadingsColor (?)
+    {kWhite}       % \MyBlockFillColorLeft (fill color of main body in tcolorboxes)
+    {kPink}        % \MyBlockFillColorCente (?)
+    {kYellow}      % \MyBlockFillColorRight (?)
+    {kWhite}       % \MyBlockTitleBoxColor (fill color of heading section in tcoloorboxes)
+    {kWhite}       % \MyBackgroundColour (entire poster background colour. tcolorbooxes are independent)
+
+    
+% =======================================================================
+% Define Footer
+% =======================================================================
+\CustomiseFooterAlt{kBlack}{kWhite}{some ads go here. Actual or fake vintange MPEMPA/Tocayo etc.. apple watch? iphone }
+    
+
+% =======================================================================
+% Title block (logos, title, authors, institutes)
+% =======================================================================
+% \MakePosterLogos{logo_mc}{logo_eu}{logo_cms}{logo_ucy}
+\title{The 2022 Chronicle}
+\author{Fotios Ptochos\inst{1}}
+\institute{\inst{1}{University of Cyprus, Nicosia, Cyprus}}
+%\date{\longdate\today}
+ 
+% =======================================================================
+% Begin document
+% =======================================================================
+\begin{document}
+
+%\MakePosterColumns{ColumnOne}{ColumnTwo}{ColumnThree}
+\input{./tex/Contents.tex} 
+
+\end{document}
+
