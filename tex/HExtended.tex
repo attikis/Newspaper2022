@@ -1,22 +1,4 @@
-% https://gitlab.cern.ch/tdr/papers/HIG-21-010/-/tree/master/
-% new tcolorbox environment
-\newtcolorbox{topQuark}[2][]{
-  coltext      = black,
-  colframe     = \MyBlockFrameColorLeft,
-  colback      = \MyBlockFillColorLeft,
-  colbacktitle = \MyBlockTitleBoxColor,
-  coltitle     = black,
-  title        = {\Large{\textbf{#2}}},
-  fonttitle    = \bfseries,
-  boxrule      = 0.2cm, %frame line width
-  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
-  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
-  arc=0.0cm,        % 0.0cm for non-rounded corners!
-  #1,
-}
-
-% CMS
-\begin{topQuark}[enhanced, tikz={rotate=0}]{Charged Higgs boson
+\begin{MyArticle}[enhanced, tikz={rotate=0}]{Charged Higgs boson
     Hunting}
   $t\rightarrow bH^{\pm}\rightarrow \tau^{\pm} \nu_{\tau}$............................\it{25 May 2012}\newline
   $H^{\pm}\rightarrow tb$ and $H^{\pm}\rightarrow \tau\nu$..............\it{31 August 2015}\newline
@@ -30,7 +12,7 @@
 %  \bf $H^{\pm} \rightarrow W^{\pm}H^{0}(\tau\tau)$ & \it{4 July 2022}\\
 %  \hline
 %\end{tabular}
-\end{topQuark}
+\end{MyArticle}
 % https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-11-019/index.html
 % https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-14-023/index.html
 % https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-18-014/index.html

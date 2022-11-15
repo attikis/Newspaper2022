@@ -77,6 +77,68 @@
 }
     
 % new tcolorbox environment
+\newtcolorbox{MyArticle}[2][]{
+  coltext      = black,
+  colframe     = \MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorLeft,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = black,
+  title        = {\Large{\textbf{#2}}},
+  fonttitle    = \bfseries,
+  boxrule      = 0.2cm, %frame line width
+  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
+  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  %enlarge left by  = +1.5cm,  
+  %enlarge right by = +0.0cm, 
+  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  arc=0.0cm,        % 0.0cm for non-rounded corners!
+  #1,
+}
+
+% new tcolorbox environment
+\newtcolorbox{headline}[2][]{
+  coltext      = black,
+  colframe     = \MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorLeft,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = black,
+  title        = {\Huge{\textbf{#2}}},
+  fonttitle    = \bfseries,
+  boxrule      = 0.2cm, %frame line width
+  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
+  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  %enlarge left by  = +1.5cm,  
+  %enlarge right by = +0.0cm, 
+  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  arc=0.0cm,        % 0.0cm for non-rounded corners!
+  #1,
+}
+
+\newtcolorbox{multimuons-2}[2][]{
+  coltext      = black,
+  colframe     = \MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorLeft,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = black,
+  title        = {\Large{\textbf{#2}}},
+  fonttitle    = \bfseries,
+  boxrule      = 0.2cm, %frame line width
+  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
+  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  %enlarge left by  = +1.5cm,  
+  %enlarge right by = +0.0cm, 
+  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  arc=0.0cm,        % 0.0cm for non-rounded corners!
+  #1,
+}
+
+
 \newtcolorbox{MyColumnLeft}[3][]{
   coltext      = \MyFontColor,
   colframe     = \MyBlockFrameColorLeft,
@@ -93,7 +155,6 @@
   #1,
 }
 
-% new tcolorbox environment
 \newtcolorbox{MyColumnCenter}[3][]{
   coltext      = \MyFontColor,
   colframe     = \MyBlockFrameColorCenter,

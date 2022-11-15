@@ -1,38 +1,9 @@
-% new tcolorbox environment
-\newtcolorbox{headline}[2][]{
-  coltext      = black,
-  colframe     = \MyBlockFrameColorLeft,
-  colback      = \MyBlockFillColorLeft,
-  colbacktitle = \MyBlockTitleBoxColor,
-  coltitle     = black,
-  title        = {\Huge{\textbf{#2}}},
-  fonttitle    = \bfseries,
-  boxrule      = 0.2cm, %frame line width
-  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
-  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
-  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
-  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
-  %enlarge left by  = +1.5cm,  
-  %enlarge right by = +0.0cm, 
-  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
-  arc=0.0cm,        % 0.0cm for non-rounded corners!
-  #1,
-}
-
-% CMS
 \begin{headline}[enhanced, tikz={rotate=0}]{Fotios Ptochos Promoted to Professor!}
   \begin{multicols}{2}
-% Professor Fotios Ptochos, has
-%significant expertise in the theme of the proposed project. He and his
-%group have recently carried out analyses towards the search for
-%charged Higgs bosons (𝛨± → 𝜏±𝜈' and 𝛨± → 𝑡𝑏). Below we only give a
-%short curriculum vitae of the Project Coordinator, and a full version
-%are appended to the end of this document. 
-
  Congratulations to Fotios Ptochos for his promotion to the rank of
  Full Professor, effective November 2022. This promotion recognizes
  Prof. Ptochos' achievements in scholarship, teaching in physics and research in
- high-energy physics, and his overall service to the CDF and CMS
+ high-energy physics (HEP), and his overall service to the CDF and CMS
  Collaborations. He is a Harvard University PhD in physics
  graduate (1998) and has been active in HEP-research, both in detector
 development and physics analyses since 1987. In particular, from 1987

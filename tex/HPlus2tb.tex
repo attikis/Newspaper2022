@@ -1,22 +1,4 @@
-% https://gitlab.cern.ch/tdr/papers/HIG-21-010/-/tree/master/
-% new tcolorbox environment
-\newtcolorbox{topQuark}[2][]{
-  coltext      = black,
-  colframe     = \MyBlockFrameColorLeft,
-  colback      = \MyBlockFillColorLeft,
-  colbacktitle = \MyBlockTitleBoxColor,
-  coltitle     = black,
-  title        = {\Large{\textbf{#2}}},
-  fonttitle    = \bfseries,
-  boxrule      = 0.2cm, %frame line width
-  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
-  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
-  arc=0.0cm,        % 0.0cm for non-rounded corners!
-  #1,
-}
-
-% CMS
-\begin{topQuark}[enhanced, tikz={rotate=0}]{Search for charged Higgs bosons decaying into a top and a bottom quark in the all-jet final state}
+\begin{MyArticle}[enhanced, tikz={rotate=0}]{Search for charged Higgs bosons decaying into a top and a bottom quark in the all-jet final state}
     A search for charged Higgs bosons ($H^{\pm}$) decaying into a top
     and a bottom quark in the all-jet final state is presented. The
     analysis uses LHC proton-proton collision data recorded with the
@@ -34,4 +16,4 @@
     corresponding upper limits are 4.5 to 0.023 $pb$. These results are
     interpreted using different minimal supersymmetric extensions of
     the standard model.
-\end{topQuark}
+\end{MyArticle}

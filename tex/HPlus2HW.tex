@@ -1,27 +1,4 @@
-% https://gitlab.cern.ch/tdr/papers/HIG-21-010/-/tree/master/
-% new tcolorbox environment
-\newtcolorbox{topQuark}[2][]{
-  coltext      = black,
-  colframe     = \MyBlockFrameColorLeft,
-  colback      = \MyBlockFillColorLeft,
-  colbacktitle = \MyBlockTitleBoxColor,
-  coltitle     = black,
-  title        = {\Large{\textbf{#2}}},
-  fonttitle    = \bfseries,
-  boxrule      = 0.2cm, %frame line width
-  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
-  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
-  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
-  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
-  %enlarge left by  = +1.5cm,  
-  %enlarge right by = +0.0cm, 
-  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
-  arc=0.0cm,        % 0.0cm for non-rounded corners!
-  #1,
-}
-
-% CMS
-\begin{topQuark}[enhanced, tikz={rotate=0}]{Higgs boson: a tool to
+\begin{MyArticle}[enhanced, tikz={rotate=0}]{Higgs boson: a tool to
     discover new physics: $H^{\pm}$}
   \begin{multicols}{2}
   A search for a charged Higgs boson $H^{\pm}$ decaying
@@ -42,4 +19,4 @@
   700 $GeV$. These are the first limits on $H^{\pm}$
   production in the $H^{\pm} \to H W^{\pm}$ decay channel at the LHC.
   \end{multicols}
-\end{topQuark}
+\end{MyArticle}
