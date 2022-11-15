@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  15 NOV 2022 09:42
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  15 NOV 2022 10:38
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -2384,46 +2384,14 @@ LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 
 Missing character: There is no − (U+2212) in font txss!
 Missing character: There is no − (U+2212) in font txss!
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--21
-[]\TU/txss/m/it/8.71 Re-sults are pre-sented
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 from searches for the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 stan-dard model Higgs
- []
-
-
-Underfull \hbox (badness 6995) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 pho-tons in-di-cates that
- []
-
 <./figures/HiggsBosonDiscoveryBW.png, id=15, 2055.68pt x 1074.0125pt>
 File: ./figures/HiggsBosonDiscoveryBW.png Graphic file (type png)
 <use ./figures/HiggsBosonDiscoveryBW.png>
 Package luatex.def Info: ./figures/HiggsBosonDiscoveryBW.png  used on input lin
 e 24.
-(luatex.def)             Requested size: 104.96994pt x 54.83455pt.
+(luatex.def)             Requested size: 106.96994pt x 55.88338pt.
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 23--25
- [] 
- []
-
-) (./tex/TopQuark_Tevatron.tex
-<./figures/TopQuarkAnnouncement.jpg, id=16, 2569.6pt x 1639.12375pt>
-File: ./figures/TopQuarkAnnouncement.jpg Graphic file (type jpg)
-<use ./figures/TopQuarkAnnouncement.jpg>
-Package luatex.def Info: ./figures/TopQuarkAnnouncement.jpg  used on input line
- 18.
-(luatex.def)             Requested size: 104.96994pt x 66.95439pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 17--19
  [] 
  []
 
@@ -2432,42 +2400,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--34
 \TU/txss/m/it/8.71 Teva-tron col-lider and
  []
 
-
-Underfull \hbox (badness 7595) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 known QCD pro-cesses
- []
-
-
-Underfull \hbox (badness 5787) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 same un-der-stand-ing of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 standing in-con-sis-ten-cies
- []
-
 ) (./tex/Professor_v2.tex
 
 LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
-(Font)              using `TU/txss/m/n' instead on input line 46.
+(Font)              using `TU/txss/m/n' instead on input line 47.
 
-<./figures/Fotis6.png, id=17, 2863.69875pt x 2038.61626pt>
+<./figures/Fotis6.png, id=16, 2863.69875pt x 2038.61626pt>
 File: ./figures/Fotis6.png Graphic file (type png)
 <use ./figures/Fotis6.png>
-Package luatex.def Info: ./figures/Fotis6.png  used on input line 62.
+Package luatex.def Info: ./figures/Fotis6.png  used on input line 63.
 (luatex.def)             Requested size: 178.79814pt x 127.25766pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 61--63
+Overfull \hbox (5.0pt too wide) in paragraph at lines 62--64
+ [] 
+ []
+
+) (./tex/HExtended.tex) (./tex/FermilabToday.tex
+<./figures/Fotios-MinJeongKimBW.jpg, id=17, 468.75125pt x 161.60374pt>
+File: ./figures/Fotios-MinJeongKimBW.jpg Graphic file (type jpg)
+<use ./figures/Fotios-MinJeongKimBW.jpg>
+Package luatex.def Info: ./figures/Fotios-MinJeongKimBW.jpg  used on input line
+ 41.
+(luatex.def)             Requested size: 178.79814pt x 61.63937pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 40--43
+ [] 
+ []
+
+) (./tex/TopQuark_Tevatron.tex
+<./figures/TopQuark2BW.jpg, id=18, 2569.6pt x 1713.40125pt>
+File: ./figures/TopQuark2BW.jpg Graphic file (type jpg)
+<use ./figures/TopQuark2BW.jpg>
+Package luatex.def Info: ./figures/TopQuark2BW.jpg  used on input line 19.
+(luatex.def)             Requested size: 106.96994pt x 71.32182pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 17--20
  [] 
  []
 
 ) (./tex/MultiMuons2_CDF.tex
-Underfull \hbox (badness 1033) in paragraph at lines 1--1
+Underfull \hbox (badness 1424) in paragraph at lines 1--1
 []\TU/txss/b/n/12.54 Multi-Muons In CDF: The Mys-tery
  []
 
-))
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--26
+\TU/txss/m/sc/8.71 multi-muon events re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--26
+\TU/txss/m/sc/8.71 cascade-decay into the
+ []
+
+) (./tex/CMS-HIG-18-015.tex) (./tex/CMS-HIG-21-010.tex))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./figures/NewspaperTitle.png Graphic file (type png)
@@ -2482,7 +2468,7 @@ Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 <./figures/NewspaperTitle.png>]
-Overfull \vbox (86.1873pt too high) has occurred while \output is active []
+Overfull \vbox (247.39601pt too high) has occurred while \output is active []
 
 File: ./figures/NewspaperTitle.png Graphic file (type png)
 <use ./figures/NewspaperTitle.png>
@@ -2493,8 +2479,8 @@ Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[2<./figures/HiggsBosonDiscoveryBW.png><./figures/TopQuarkAnnouncement.jpg><./fi
-gures/Fotis6.png>]
+[2<./figures/HiggsBosonDiscoveryBW.png><./figures/Fotis6.png><./figures/Fotios-M
+inJeongKimBW.jpg><./figures/TopQuark2BW.jpg>]
 \tf@nav=\write7
 
 \openout7 = poster.nav
@@ -2517,35 +2503,37 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42765 strings out of 477250
- 195334,1648299 words of node,token memory allocated
+ 42855 strings out of 477250
+ 305232,1977958 words of node,token memory allocated
  4475 words of node memory still in use:
    51 hlist, 7 vlist, 6 rule, 13 disc, 12 local_par, 2 math, 149 glue, 29 kern, 
 26 penalty, 176 glyph, 143 attribute, 68 glue_spec, 143 attribute_list, 3 write,
  40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore n
 odes
-   avail lists: 2:2487,3:1422,4:239,5:913,6:66,7:16888,8:28,9:1288,10:21,11:1243
+   avail lists: 1:1,2:4160,3:2464,4:296,5:1393,6:102,7:26842,8:29,9:2010,10:21,1
+1:1834
+ 61782 multiletter control sequences out of 65536+600000
+ 139 fonts using 9605767 bytes
+ 128i,21n,133p,409b,1394s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.ot
+f></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular
+.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regu
+lar.otf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/lo
+cal/texlive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive
+/2022/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf>{/usr/local/texli
+ve/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive
+/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><</Users/attikis/
+Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></usr
+/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on poster.pdf (2 pages, 7774129 bytes).
 
- 61730 multiletter control sequences out of 65536+600000
- 137 fonts using 9342391 bytes
- 128i,21n,133p,409b,1383s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.o
-tf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive/2022
-/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf>{/usr/local/texlive/20
-22/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022
-/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><</Users/attikis/Libra
-ry/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></usr/loca
-l/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
-exlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2
-022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (2 pages, 7881026 bytes).
-
-PDF statistics: 96 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+PDF statistics: 111 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 100000000)
 

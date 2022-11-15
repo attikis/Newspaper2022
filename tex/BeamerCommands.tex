@@ -79,17 +79,73 @@
 }
     
 % new tcolorbox environment
+\newtcolorbox{headline}[2][]{
+  coltext          = black,
+  colframe         = black, %gray!50
+  colback          = \MyBlockFillColorRight,
+  colbacktitle     = \MyBlockTitleBoxColor,
+  coltitle         = black,
+  title            = #2,
+  fonttitle        = \bfseries\Huge,
+  boxrule          = 0pt, % border line width
+  % opacityframe     = 0,   % remove box border line
+  titlerule       = 1pt,
+  % colbacktitle    = red!50!yellow,
+  % titlerule style = black,
+  titlerule style = {black, arrows = {Hooks [arc=270]-Hooks [arc=270]}},
+  opacityback     = 1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  top             =-0.5cm,
+  bottom          = 0.0cm,
+  left            = 0.05cm,
+  right           = 0.05cm,
+  arc             = 0.0cm, % 0.0cm for non-rounded corners!
+  sharp corners,
+  frame hidden,
+  parbox=false,
+  #1,
+}
+
+% new tcolorbox environment
+\newtcolorbox{SubArticle}[2][]{
+  coltext      = black,
+  colframe     = black, %gray!50
+  colback      = \MyBlockFillColorRight,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = black,
+  title        = #2,
+  fonttitle    = \bfseries\large,
+  boxrule      = 0pt, % border line width
+  % opacityframe = 0,   % remove box border line
+  titlerule    = 1pt,
+  % colbacktitle    = red!50!yellow,
+  % titlerule style = black,
+  %titlerule style = {black, arrows = {Hooks [arc=270]-Hooks [arc=270]}},
+  opacityback     = 1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  top             = -1.0cm,
+  bottom          = 0.0cm,
+  left            = 0.05cm,
+  right           = 0.05cm,
+  arc             = 0.0cm, % 0.0cm for non-rounded corners!
+  sharp corners,
+  frame hidden,
+  parbox=false,
+  #1,
+}
+
+% new tcolorbox environment
 \newtcolorbox{MyArticle}[2][]{
   coltext      = black,
-  colframe     = gray!50, %\MyBlockFrameColorLeft,
+  colframe     = black, %gray!50, %\MyBlockFrameColorLeft,
   colback      = \MyBlockFillColorRight, %white, %\MyBlockFillColorLeft,
   colbacktitle = \MyBlockTitleBoxColor,
   coltitle     = black,
   title        = {\Large{\textbf{#2}}},
   fonttitle    = \bfseries,
-  boxrule      = 2pt, %frame line width
+  boxrule      = 0pt, %frame line width
+  borderline={1mm}{0mm}{solid}, % dashed  {dot width}{margin width}
+  titlerule    = 0pt, %tiitle line width
   %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
-  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  top=-0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
   %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
   %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
   %enlarge left by  = +1.5cm,  
@@ -101,26 +157,73 @@
 }
 
 % new tcolorbox environment
-\newtcolorbox{headline}[2][]{
+\newtcolorbox{MyArticleDotted}[2][]{
   coltext      = black,
-  colframe     = black, %gray!50
-  colback      = \MyBlockFillColorRight,
+  colframe     = black, %gray!50, %\MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorRight, %white, %\MyBlockFillColorLeft,
   colbacktitle = \MyBlockTitleBoxColor,
   coltitle     = black,
-  title        = #2,
-  fonttitle    = \bfseries\Huge,
-  boxrule      = 0pt, % border line width
-  % opacityframe = 0,   % remove box border line
-  titlerule    = 1pt,
-  % colbacktitle    = red!50!yellow,
-  % titlerule style = black,
-  titlerule style = {black, arrows = {Hooks [arc=270]-Hooks [arc=270]}},
-  opacityback     = 1.0, % 1.0 means totally transparent, 0.0 means totally opaque
-  top             = 0.0cm,
-  bottom          = 0.0cm,
-  left            = 0.05cm,
-  right           = 0.05cm,
-  arc             = 0.0cm, % 0.0cm for non-rounded corners!
+  title        = {\Large{\textbf{#2}}},
+  fonttitle    = \bfseries,
+  boxrule      = 0pt, %frame line width
+  borderline={1mm}{0mm}{dotted}, % dashed  {dot width}{margin width}
+  titlerule    = 0pt, %tiitle line width
+  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
+  top=-0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  %enlarge left by  = +1.5cm,  
+  %enlarge right by = +0.0cm, 
+  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  arc=0.0cm,        % 0.0cm for non-rounded corners!
+  sharp corners,
+  #1,
+}
+
+% new tcolorbox environment
+\newtcolorbox{MyArticleDashed}[2][]{
+  coltext      = black,
+  colframe     = black, %gray!50, %\MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorRight, %white, %\MyBlockFillColorLeft,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = black,
+  title        = {\Large{\textbf{#2}}},
+  fonttitle    = \bfseries,
+  boxrule      = 0pt, %frame line width
+  borderline={1mm}{0mm}{dashed}, % dashed  {dot width}{margin width}
+  titlerule    = 0pt, %tiitle line width
+  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
+  top=-0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  %enlarge left by  = +1.5cm,  
+  %enlarge right by = +0.0cm, 
+  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  arc=0.0cm,        % 0.0cm for non-rounded corners!
+  sharp corners,
+  #1,
+}
+
+
+\newtcolorbox{multimuons-1}[2][]{ 
+  coltext      = black,
+  colframe     = black, %\MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorRight, %white, %\MyBlockFillColorLeft,
+  colbacktitle = \MyBlockTitleBoxColor,
+  coltitle     = black,
+  title        = {\Large{\textbf{#2}}},
+  fonttitle    = \bfseries,
+  boxrule      = 0pt, %frame line width
+  titlerule    = 0pt, %tiitle line width
+  titlerule style = {white},
+  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
+  top=-0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
+  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
+  %enlarge left by  = +1.5cm,  
+  %enlarge right by = +0.0cm, 
+  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  arc=0.0cm,        % 0.0cm for non-rounded corners!
   sharp corners,
   frame hidden,
   #1,
@@ -134,9 +237,11 @@
   coltitle     = black,
   title        = {\Large{\textbf{#2}}},
   fonttitle    = \bfseries,
-  boxrule      = 2pt, %frame line width
+  boxrule      = 1pt, %frame line width
+  titlerule    = 0pt, %tiitle line width
+  titlerule style = {white},
   %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
-  top=+0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
+  top=-0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
   %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
   %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
   %enlarge left by  = +1.5cm,  
@@ -144,6 +249,7 @@
   opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
   arc=0.0cm,        % 0.0cm for non-rounded corners!
   sharp corners,
+  frame hidden,
   #1,
 }
 
