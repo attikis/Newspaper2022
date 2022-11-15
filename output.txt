@@ -842,8 +842,10 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '5.1.1'
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryautomata.code.tex)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarypositioning.code.tex)) (./tex/BeamerCommands.tex)
-(./tex/LatexCommands.tex) (./beamerthemeconfposter.sty) (./poster.aux)
+s/tikzlibrarypositioning.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex)) (./tex/BeamerCommands.tex) (./tex/LatexCommands.tex)
+(./beamerthemeconfposter.sty) (./poster.aux)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omltxmi.fd)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/omstxsy.fd)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd)
@@ -851,7 +853,7 @@ s/tikzlibrarypositioning.code.tex)) (./tex/BeamerCommands.tex)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxexa.fd)
 
 LaTeX Font Warning: Font shape `TU/txss/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 53.
+(Font)              using `TU/lmr/m/n' instead on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -872,7 +874,7 @@ ionary-English.dict)
 tionary-English.dict)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-theorem-dic
 tionary-English.dict) (./poster.nav)
-Overfull \hbox (1.98239pt too wide) in paragraph at lines 53--53
+Overfull \hbox (1.98239pt too wide) in paragraph at lines 62--62
 [][][][]  
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ifsym/uifwea.fd)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/ot1txss.fd)
@@ -885,238 +887,71 @@ Overfull \hbox (1.98239pt too wide) in paragraph at lines 53--53
 (/usr/local/texlive/2022/texmf-dist/tex/latex/kerkis/t1mak.fd)
 
 LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <12.54> not available
-(Font)              size <12> substituted on input line 53.
+(Font)              size <12> substituted on input line 62.
 
 
 LaTeX Font Warning: Font shape `TU/txss/m/it' undefined
-(Font)              using `TU/txss/m/n' instead on input line 53.
+(Font)              using `TU/txss/m/n' instead on input line 62.
 
 
 LaTeX Font Warning: Font shape `TU/txss/b/n' undefined
-(Font)              using `TU/txss/m/n' instead on input line 53.
+(Font)              using `TU/txss/m/n' instead on input line 62.
 
-(./tex/Contents.tex (./tex/HiggsBoson_LHC.tex
-Underfull \hbox (badness 1629) in paragraph at lines 1--1
-[]\TU/txss/b/n/12.54 Physi-cists Find Elu-sive Par-ti-cle
+(./tex/Contents_v2.tex (./tex/HiggsBoson_LHC.tex
 Missing character: There is no − (U+2212) in font txss!
 Missing character: There is no − (U+2212) in font txss!
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 us-ing data sam-ples
+[]\TU/txss/m/it/8.71 Re-sults are pre-sented
 
-Underfull \hbox (badness 6859) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 te-grated lu-mi-nosi-ties
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 pected back-ground,
-
-Underfull \hbox (badness 7099) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 ex-pected sig-nif-i-cance
+Underfull \hbox (badness 6461) in paragraph at lines 3--21
+\TU/txss/m/it/8.71 from searches for the
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 0\OML/mak/m/it/8.71 :\TU/txss/m/it/8.71 4\OT1/txss/m/n/8.71 
-([]) \OMS/txsy/m/n/8.71 ^^F \TU/txss/m/it/8.71 0\OML/mak/m/it/8.71 :\TU/txss/m/
-it/8.71 5\OT1/txss/m/n/8.71 ([]$
+\TU/txss/m/it/8.71 stan-dard model Higgs
+
+Underfull \hbox (badness 6995) in paragraph at lines 3--21
+\TU/txss/m/it/8.71 pho-tons in-di-cates that
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 23--25
  [] 
 ) (./tex/TopQuark_Tevatron.tex
-Underfull \hbox (badness 5771) in paragraph at lines 3--15
-\TU/txss/m/it/8.71 sis-tent with $t[]$ de-
-
 Overfull \hbox (5.0pt too wide) in paragraph at lines 17--19
  [] 
+) (./tex/MultiMuons1_CDF.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--34
+\TU/txss/m/it/8.71 Teva-tron col-lider and
+
+Underfull \hbox (badness 7595) in paragraph at lines 3--34
+\TU/txss/m/it/8.71 known QCD pro-cesses
+
+Underfull \hbox (badness 5787) in paragraph at lines 3--34
+\TU/txss/m/it/8.71 same un-der-stand-ing of
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--34
+\TU/txss/m/it/8.71 standing in-con-sis-ten-cies
 ) (./tex/Professor_v2.tex
-Overfull \hbox (5.0pt too wide) in paragraph at lines 80--82
+
+LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
+(Font)              using `TU/txss/m/n' instead on input line 46.
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 61--63
  [] 
-) (./tex/HiggsBoson_LHC.tex
-Underfull \hbox (badness 1629) in paragraph at lines 1--1
-[]\TU/txss/b/n/12.54 Physi-cists Find Elu-sive Par-ti-cle
-Missing character: There is no − (U+2212) in font txss!
-Missing character: There is no − (U+2212) in font txss!
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 us-ing data sam-ples
-
-Underfull \hbox (badness 6859) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 te-grated lu-mi-nosi-ties
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 pected back-ground,
-
-Underfull \hbox (badness 7099) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 ex-pected sig-nif-i-cance
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--21
-\TU/txss/m/it/8.71 0\OML/mak/m/it/8.71 :\TU/txss/m/it/8.71 4\OT1/txss/m/n/8.71 
-([]) \OMS/txsy/m/n/8.71 ^^F \TU/txss/m/it/8.71 0\OML/mak/m/it/8.71 :\TU/txss/m/
-it/8.71 5\OT1/txss/m/n/8.71 ([]$
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 23--25
- [] 
-)
-Overfull \hbox (1.99168pt too wide) detected at line 14
-[][][] [][][][][][][] 
-(./tex/MultiMuons1_CDF.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]\TU/txss/b/n/12.54 CDF pub-lishes multi-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-[]\TU/txss/m/it/8.71 We re-port a
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 duced at the
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 Fer-mi-lab Teva-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 tron col-lider
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 dimuon trig-ger
-
-Underfull \hbox (badness 6396) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 ing to an in-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 te-grated lu-mi-
-
-Underfull \hbox (badness 6775) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 nos-ity of 2100
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 pb$[][]$, we iso-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 late a sig-nif-i-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 out-side of the
-
-Underfull \hbox (badness 7256) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 in which both
-
-Underfull \hbox (badness 6758) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 side the beam
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 fully mod-eled
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 in-clude heavy
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 fla-vor pro-duc-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 trast, we are
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 and prop-er-ties
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 at least one
-
-Underfull \hbox (badness 5667) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 CDF II de-tec-
-
-Underfull \hbox (badness 5374) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 tion. Sev-eral
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 topo-log-i-cal and
-
-Underfull \hbox (badness 7486) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 er-ties of these
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 sented in this
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 events of-fer a
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 plau-si-ble res-o-
-
-Underfull \hbox (badness 8038) in paragraph at lines 3--34
-\TU/txss/m/it/8.71 standing in-con-
-) (./tex/MultiMuons2_CDF.tex) (./tex/HExtended.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--2
-[]\TU/txss/b/n/12.54 Charged Higgs bo-son
-) (./tex/HPlus2tb.tex) (./tex/HPlus2HW.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 charged Higgs
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 bo-son $H[]$ de-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 cay-ing into a
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 heavy neu-tral
-
-Underfull \hbox (badness 5403) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 and a $W$ bo-
-
-Underfull \hbox (badness 7613) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 of tau lep-tons
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 in the event.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 The search is
-
-Underfull \hbox (badness 7944) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 proton col-li-sion
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 data recorded
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 per-i-ment dur-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 cor-re-spond-ing
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 lu-mi-nos-ity of
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 ground ex-pec-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 lim-its at 95$\OT1/txss/m/n/8.71 %$
-
-Underfull \hbox (badness 6493) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 con-fi-dence level
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 branch-ing frac-
-
-Underfull \hbox (badness 7151) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 200 GeV. The
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 ob-served lim-its
-
-Underfull \hbox (badness 5008) in paragraph at lines 4--21
-\TU/txss/m/it/8.71 pb$ for an $H[]$
-)
-Overfull \hbox (1.99168pt too wide) detected at line 25
-[][][] [][][][][][][] 
-)
+) (./tex/MultiMuons2_CDF.tex
+Underfull \hbox (badness 1033) in paragraph at lines 1--1
+[]\TU/txss/b/n/12.54 Multi-Muons In CDF: The Mys-tery
+))
 Underfull \vbox (badness 10000) has occurred while \output is active
 Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 [][][][] 
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figu
-res/NewspaperTitle.png><./figures/HiggsBosonDiscoveryBW.png><./figures/TopQuark
-Announcement.jpg><./figures/Fotis6.png>]
+res/NewspaperTitle.png>]
+Overfull \vbox (86.1873pt too high) has occurred while \output is active
 Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 [][][][] 
-[2] (./poster.aux)
+[2<./figures/HiggsBosonDiscoveryBW.png><./figures/TopQuarkAnnouncement.jpg><./f
+igures/Fotis6.png>] (./poster.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.54pt have occurred.
@@ -1131,13 +966,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  26 penalty, 176 glyph, 143 attribute, 68 glue_spec, 143 attribute_list, 3 writ
 e, 40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restor
 e nodes
-   avail lists: 1:1,2:4294,3:2621,4:361,5:1680,6:105,7:32074,8:28,9:2377,10:21,
-11:2228
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.o
-tf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/
-texlive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive/20
-22/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive
+   avail lists: 2:2487,3:1422,4:239,5:913,6:66,7:16888,8:28,9:1288,10:21,11:124
+3
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.
+otf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local
+/texlive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive/2
+022/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf>{/usr/local/texliv
+e/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive
 /2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><</Users/attikis
 /Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></u
 sr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf
@@ -1146,5 +981,5 @@ b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></
 usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/loc
 al/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (2 pages, 7890471 bytes).
+Output written on poster.pdf (2 pages, 7881026 bytes).
 Transcript written on poster.log.

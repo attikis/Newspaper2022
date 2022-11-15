@@ -24,7 +24,9 @@
         %\usebeamercolor{title in headline}
         %{\VERYHuge{\inserttitle} \\\vspace{1cm}}
         \vspace{-1.5cm}
-        \begin{figure}                                                                                                                                                                                              \includegraphics[width=0.9\textwidth]{./figures/NewspaperTitle.png}                                                                                                                                      \end{figure}                                                                                                                                                                                   
+        \begin{figure}
+          \includegraphics[width=0.9\textwidth]{./figures/NewspaperTitle.png}
+        \end{figure}
         %\usebeamercolor{author in headline}   {\VERYHuge{\insertauthor}\vspace{0.5cm}\\}
         %\usebeamercolor{institute in headline}{\VERYHuge{\insertinstitute}\\}
         %\usebeamercolor{date in headline}     {\VERYHuge{\today}\\[1ex]}
@@ -42,7 +44,6 @@
           Dow \quad \textcolor{green}{+0.1\%} \quad $\uparrow$
           \vspace{0.1cm}          
         \end{column}
-        
     \end{columns}
   \end{columns}
 
@@ -64,31 +65,4 @@
     \rule{\paperwidth}{0.5mm}
     \rule{\paperwidth}{0.5mm}
   \end{beamercolorbox}
-
 }
-
-
-\begin{comment}
-  \setbeamercolor{headlineColors}{fg=red, bg=\MyHeadingsColor}
-
-\setbeamertemplate{headline}{
-  \begin{beamercolorbox}[]{headlineColors}
-    \leavevmode
-    \begin{columns}
-      \begin{column}{\linewidth}
-        \noindent\makebox[\linewidth]{\color{\MyHeadingsColor}\rule{\paperwidth}{0.3cm}}
-        \vskip1.0cm
-        \centering
-        \usebeamercolor{title in headline}    {\color{kWhite} \Huge{\textbf{\inserttitle}}\\\vspace{1cm}}
-        \usebeamercolor{author in headline}   {\Large{\insertauthor}\vspace{0.5cm}\\}
-        \usebeamercolor{institute in headline}{\large{\insertinstitute}\\}
-        \usebeamercolor{date in headline}     {\large{\today}\\[1ex]}
-        \vspace{0.1cm}
-        \noindent\makebox[\linewidth]{\color{\MyHeadingsColor}\rule{\paperwidth}{0.3cm}}
-      \end{column}
-    \end{columns}
-\end{beamercolorbox}
-
-}
-
-\end{comment}

@@ -22,19 +22,21 @@
 % Define Colours
 % =======================================================================
 \CustomiseColours
-    {red!50!white} % \MyFontTitleColor (?) 
-    {red!30!black} % \MyHeadingsColor (?)
-    {kWhite}       % \MyBlockFillColorLeft (fill color of main body in tcolorboxes)
-    {kPink}        % \MyBlockFillColorCente (?)
-    {kYellow}      % \MyBlockFillColorRight (?)
-    {kWhite}       % \MyBlockTitleBoxColor (fill color of heading section in tcoloorboxes)
-    {kWhite}       % \MyBackgroundColour (entire poster background colour. tcolorbooxes are independent)
-
+    {red!50!white} % \MyFontTitleColor
+    {red!30!black} % \MyHeadingsColor
+    {kOldPaper}    % \MyBlockFillColorLeft (fill color of main body in tcolorboxes)
+    {kOldPaper}    % \MyBlockFillColorCente (?)
+    {kOldPaper}    % \MyBlockFillColorRight
+    {kOldPaper}    % \MyBlockTitleBoxColor (fill color of heading section in tcoloorboxes)
+    {kOldPaper}    % \MyBackgroundColour (entire poster background colour. tcolorbooxes are independent)
+    {black}        % \MyFooterTextColour
+    {kOldPaper}    % \MyFooterFillColour
     
 % =======================================================================
 % Define Footer
 % =======================================================================
-\CustomiseFooterAlt{kBlack}{kWhite}{some ads go here. Actual or fake vintange MPEMPA/Tocayo etc.. apple watch? iphone }
+\SetFooterText{some ads go here. Actual or fake vintange MPEMPA/Tocayo etc.. apple watch? iphone }%
+%\CustomiseFooterAlt{kBlack}{kWhite}{some ads go here. Actual or fake vintange MPEMPA/Tocayo etc.. apple watch? iphone }
     
 
 % =======================================================================
@@ -47,13 +49,21 @@
 \institute{\inst{1}{University of Cyprus, Nicosia, Cyprus}}
 %\date{\longdate\today}
  
+
+\setbeamersize
+{
+    text margin left=0.2cm,
+    text margin right=0.2cm
+}
+
 % =======================================================================
 % Begin document
 % =======================================================================
 \begin{document}
 
 %\MakePosterColumns{ColumnOne}{ColumnTwo}{ColumnThree}
-\input{./tex/Contents.tex} 
+%\input{./tex/Contents_v1.tex}
+\input{./tex/Contents_v2.tex} 
 
 \end{document}
 
