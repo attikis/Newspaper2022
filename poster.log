@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  15 NOV 2022 10:38
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  15 NOV 2022 10:39
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -2503,7 +2503,7 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42855 strings out of 477250
+ 42859 strings out of 477250
  305232,1977958 words of node,token memory allocated
  4475 words of node memory still in use:
    51 hlist, 7 vlist, 6 rule, 13 disc, 12 local_par, 2 math, 149 glue, 29 kern, 
@@ -2512,7 +2512,7 @@ Here is how much of LuaTeX's memory you used:
 odes
    avail lists: 1:1,2:4160,3:2464,4:296,5:1393,6:102,7:26842,8:29,9:2010,10:21,1
 1:1834
- 61782 multiletter control sequences out of 65536+600000
+ 61786 multiletter control sequences out of 65536+600000
  139 fonts using 9605767 bytes
  128i,21n,133p,409b,1394s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.ot
