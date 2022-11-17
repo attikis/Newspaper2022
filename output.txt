@@ -906,7 +906,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 23--25
 ) (./tex/MultiMuons1_CDF.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--34
 \TU/txss/m/it/8.71 Teva-tron col-lider and
-) (./tex/Professor_v2.tex
+) (./tex/Professor_v3.tex
 
 LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
 (Font)              using `TU/txss/m/n' instead on input line 47.
@@ -935,10 +935,10 @@ Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 [][][][] 
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figu
 res/NewspaperTitle.png>]
-Overfull \vbox (247.39601pt too high) has occurred while \output is active
+Overfull \vbox (236.89601pt too high) has occurred while \output is active
 Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 [][][][] 
-[2<./figures/HiggsBosonDiscoveryBW.png><./figures/Fotis6.png><./figures/Fotios-
+[2<./figures/HiggsBosonDiscoveryBW.png><./figures/Fotis7.png><./figures/Fotios-
 MinJeongKimBW.jpg><./figures/TopQuark2BW.jpg>] (./poster.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -954,7 +954,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  26 penalty, 176 glyph, 143 attribute, 68 glue_spec, 143 attribute_list, 3 writ
 e, 40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restor
 e nodes
-   avail lists: 1:1,2:4160,3:2464,4:296,5:1393,6:102,7:26842,8:29,9:2010,10:21,
+   avail lists: 1:1,2:4160,3:2462,4:296,5:1393,6:102,7:26842,8:28,9:2010,10:21,
 11:1834
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.o
 tf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regul
@@ -971,5 +971,5 @@ alic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm09
 00.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200
 .pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></
 usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (2 pages, 7774129 bytes).
+Output written on poster.pdf (2 pages, 3018364 bytes).
 Transcript written on poster.log.

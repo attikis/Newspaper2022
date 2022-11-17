@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  15 NOV 2022 10:39
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  17 NOV 2022 11:56
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -2400,16 +2400,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--34
 \TU/txss/m/it/8.71 Teva-tron col-lider and
  []
 
-) (./tex/Professor_v2.tex
+) (./tex/Professor_v3.tex
 
 LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
 (Font)              using `TU/txss/m/n' instead on input line 47.
 
-<./figures/Fotis6.png, id=16, 2863.69875pt x 2038.61626pt>
-File: ./figures/Fotis6.png Graphic file (type png)
-<use ./figures/Fotis6.png>
-Package luatex.def Info: ./figures/Fotis6.png  used on input line 63.
-(luatex.def)             Requested size: 178.79814pt x 127.25766pt.
+<./figures/Fotis7.png, id=16, 869.2475pt x 482.80376pt>
+File: ./figures/Fotis7.png Graphic file (type png)
+<use ./figures/Fotis7.png>
+Package luatex.def Info: ./figures/Fotis7.png  used on input line 63.
+(luatex.def)             Requested size: 178.79814pt x 99.30692pt.
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 62--64
  [] 
@@ -2468,7 +2468,7 @@ Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 <./figures/NewspaperTitle.png>]
-Overfull \vbox (247.39601pt too high) has occurred while \output is active []
+Overfull \vbox (236.89601pt too high) has occurred while \output is active []
 
 File: ./figures/NewspaperTitle.png Graphic file (type png)
 <use ./figures/NewspaperTitle.png>
@@ -2479,7 +2479,7 @@ Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[2<./figures/HiggsBosonDiscoveryBW.png><./figures/Fotis6.png><./figures/Fotios-M
+[2<./figures/HiggsBosonDiscoveryBW.png><./figures/Fotis7.png><./figures/Fotios-M
 inJeongKimBW.jpg><./figures/TopQuark2BW.jpg>]
 \tf@nav=\write7
 
@@ -2503,16 +2503,16 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42859 strings out of 477250
- 305232,1977958 words of node,token memory allocated
+ 42860 strings out of 477250
+ 305230,1977958 words of node,token memory allocated
  4475 words of node memory still in use:
    51 hlist, 7 vlist, 6 rule, 13 disc, 12 local_par, 2 math, 149 glue, 29 kern, 
 26 penalty, 176 glyph, 143 attribute, 68 glue_spec, 143 attribute_list, 3 write,
  40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore n
 odes
-   avail lists: 1:1,2:4160,3:2464,4:296,5:1393,6:102,7:26842,8:29,9:2010,10:21,1
+   avail lists: 1:1,2:4160,3:2462,4:296,5:1393,6:102,7:26842,8:28,9:2010,10:21,1
 1:1834
- 61786 multiletter control sequences out of 65536+600000
+ 61787 multiletter control sequences out of 65536+600000
  139 fonts using 9605767 bytes
  128i,21n,133p,409b,1394s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.ot
@@ -2530,7 +2530,7 @@ usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (2 pages, 7774129 bytes).
+Output written on poster.pdf (2 pages, 3018364 bytes).
 
 PDF statistics: 111 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
