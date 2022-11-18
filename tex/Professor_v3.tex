@@ -1,6 +1,8 @@
-\begin{headline}[enhanced, tikz={rotate=0}]{Fotios Ptochos Promoted to Professor!}
+%\begin{multimuons-2}[enhanced, tikz={rotate=0}]{Fotios Ptochos Promoted to Professor!}
+  \begin{multimuons-2}[enhanced, tikz={rotate=0}]{}
+  %headline
   % https://www.overleaf.com/learn/latex/Multiple_columns
-  \begin{multicols}{2}
+  \begin{multicols*}{3}
     Congratulations to Fotios Ptochos for his promotion to the rank of
     Full Professor, effective November 2022. This promotion recognizes
     Prof. Ptochos' achievements in scholarship, teaching in physics and research in
@@ -21,6 +23,7 @@
     information from the calorimeter and hits on the silicon tracker
     detector. The algorithm led to the development and implementation of
     the PHOENIX tracker system in the CDF-II detector. 
+    
     In the period of 2000–2003, he was the coordinator of the group
     responsible for the development, installation, maintenance and
     performance monitoring of the CDF-II Hadronic Calorimeter (HCAL)
@@ -34,6 +37,8 @@
     the CMS tracking detector. He was also involved in the development of
     the dual-readout calorimetry concept in a total absorption HCAL for
     future linear-collider experiments. 
+    \columnbreak
+
     Professor Ptochos has led numerous physics analyses, spanning
     from precision measurements on properties of heavy flavour quark
     production and their use as probes for searching for the SM and SUSY
@@ -58,11 +63,29 @@
     % ========================
     \begin{figure}
       \begin{center}
-        \vspace{-0.2in}
+        %\vspace{-0.2in}
         \leavevmode
-        \includegraphics[width=0.5\textwidth]{./figures/Fotis7.png}
+        \includegraphics[width=0.3\textwidth]{./figures/Fotis7.png}
       \end{center}
     \end{figure}
     % ========================
-  \end{multicols}
-\end{headline}
+    \columnbreak
+    
+    \input{./tex/HExtended.tex}
+    \begin{figure}
+      \begin{center}
+        %\vspace{6.5cm}
+        \leavevmode
+        \includegraphics[width=0.3\textwidth]{./figures/Fotis6.png}
+      \end{center}
+    \end{figure}
+    Visit the favorite spots in town for amazing dishes and wine
+    \begin{figure}
+      \begin{center}
+        %\vspace{6.5cm}
+        \leavevmode
+        \includegraphics[width=0.3\textwidth]{./figures/restaurants.png}
+      \end{center}
+    \end{figure}
+  \end{multicols*}
+\end{multimuons-2}

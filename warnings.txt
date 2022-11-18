@@ -2,6 +2,8 @@ LaTeX Font Warning: Font shape `TU/txss/m/n' undefined
 LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <12.54> not available
 LaTeX Font Warning: Font shape `TU/txss/m/it' undefined
 LaTeX Font Warning: Font shape `TU/txss/b/n' undefined
+Package multicol Warning: multicols* inside a box does not make sense.
 LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
+Package multicol Warning: multicols* inside a box does not make sense.
 LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
