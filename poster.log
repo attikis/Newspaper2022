@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  18 NOV 2022 18:03
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  18 NOV 2022 18:19
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -2271,10 +2271,6 @@ LaTeX Info: Redefining \ohm on input line 74.
 Package gensymb Info: Using \textohm for \ohm on input line 74.
 Package gensymb Info: Using \textmu for \micro on input line 74.
  (./poster.nav)
-Overfull \hbox (1.98239pt too wide) in paragraph at lines 74--74
-[][][][]  
- []
-
 <./figures/NewspaperTitle.png, id=14, 859.794pt x 164.25pt>
 File: ./figures/NewspaperTitle.png Graphic file (type png)
 <use ./figures/NewspaperTitle.png>
@@ -2282,6 +2278,7 @@ Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 74.
 (luatex.def)             Requested size: 456.32678pt x 87.17488pt.
 LaTeX Font Info:    Trying to load font information for U+ifwea on input line 7
 4.
+
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ifsym/uifwea.fd)
 LaTeX Font Info:    Calculating math sizes for size <12.54> on input line 74.
 LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
@@ -2374,39 +2371,222 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 63--65
  [] 
  []
 
-) (./tex/CMS-HIG-18-015.tex
-LaTeX Font Info:    Calculating math sizes for size <8.71> on input line 3.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.27448pt on input line 3.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.7921pt on input line 3.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.13722pt on input line 3.
-LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 7.83894pt on input line 3.
-LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 5.48723pt on input line 3.
-LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 3.91946pt on input line 3.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 7.83894pt on input line 3.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 5.48723pt on input line 3.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 3.91946pt on input line 3.
-) (./tex/CMS-HIG-21-010.tex)
-File: ./figures/NewspaperTitle.png Graphic file (type png)
-<use ./figures/NewspaperTitle.png>
-Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 6.
-(luatex.def)             Requested size: 456.32678pt x 87.17488pt.
-
-Overfull \hbox (1.98239pt too wide) has occurred while \output is active
-[][][][] 
+) (./tex/FermilabToday.tex
+Underfull \hbox (badness 7631) in paragraph at lines 22--27
+[]\TU/txss/m/sc/8.71 The source of these back-
  []
 
-[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<./figures/NewspaperTitle.png><./figures/Fotis7.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+\TU/txss/m/sc/8.71 ground events, whim-si-cally
+ []
+
+<./figures/Fotios-MinJeongKimBW.jpg, id=16, 468.75125pt x 161.60374pt>
+File: ./figures/Fotios-MinJeongKimBW.jpg Graphic file (type jpg)
+<use ./figures/Fotios-MinJeongKimBW.jpg>
+Package luatex.def Info: ./figures/Fotios-MinJeongKimBW.jpg  used on input line
+ 53.
+(luatex.def)             Requested size: 395.60657pt x 136.38487pt.
+) (./tex/HiggsBoson_LHC.tex
+LaTeX Font Info:    Calculating math sizes for size <8.71> on input line 9.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.27448pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.7921pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.13722pt on input line 9.
+LaTeX Font Info:    Font shape `OML/mak/m/it' will be
+(Font)              scaled to size 7.83894pt on input line 9.
+LaTeX Font Info:    Font shape `OML/mak/m/it' will be
+(Font)              scaled to size 5.48723pt on input line 9.
+LaTeX Font Info:    Font shape `OML/mak/m/it' will be
+(Font)              scaled to size 3.91946pt on input line 9.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 7.83894pt on input line 9.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 5.48723pt on input line 9.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 3.91946pt on input line 9.
+
+Missing character: There is no − (U+2212) in font txss!
+Missing character: There is no − (U+2212) in font txss!
+<./figures/HiggsBosonDiscoveryBW.png, id=17, 2055.68pt x 1074.0125pt>
+File: ./figures/HiggsBosonDiscoveryBW.png Graphic file (type png)
+<use ./figures/HiggsBosonDiscoveryBW.png>
+Package luatex.def Info: ./figures/HiggsBosonDiscoveryBW.png  used on input lin
+e 27.
+(luatex.def)             Requested size: 198.80328pt x 103.85132pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 26--28
+ [] 
+ []
+
+) (./tex/AdsRestaurants.tex
+<./figures/restaurants.png, id=18, 218.781pt x 47.085pt>
+File: ./figures/restaurants.png Graphic file (type png)
+<use ./figures/restaurants.png>
+Package luatex.def Info: ./figures/restaurants.png  used on input line 6.
+(luatex.def)             Requested size: 250.10228pt x 53.82904pt.
+)
+File: ./figures/NewspaperTitle.png Graphic file (type png)
+<use ./figures/NewspaperTitle.png>
+Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 11.
+(luatex.def)             Requested size: 456.32678pt x 87.17488pt.
+ [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+<./figures/NewspaperTitle.png><./figures/Fotis7.png><./figures/Fotios-MinJeongKi
+mBW.jpg><./figures/HiggsBosonDiscoveryBW.png><./figures/restaurants.png>] (./te
+x/FermilabToday.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\TU/txss/m/it/8.71 di-tion to solv-ing
+ []
+
+
+Underfull \hbox (badness 7362) in paragraph at lines 4--9
+\TU/txss/m/it/8.71 searchers ob-served
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+[]\TU/txss/m/it/8.71 The work be-gins
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 at the Teva-tron.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 Al-though pre-vi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 ous mea-sure-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 showed de-vi-a-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 pro-duc-tion rates,
+ []
+
+
+Underfull \hbox (badness 6220) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 this newer, more
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 pre-cise mea-sure-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 CDF found that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 sure-ments could
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 be ex-plained by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 vi-ously iden-ti-fied.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 Ear-lier anal-y-ses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 back-ground from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 the bottom-quark
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 10--21
+\TU/txss/m/it/8.71 searchers to mis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+\TU/txss/m/it/8.71 whim-si-cally called
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+\TU/txss/m/it/8.71 the new puz-zle.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+\TU/txss/m/it/8.71 vi-ously iden-ti-fied.
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 22--27
+\TU/txss/m/it/8.71 tain more muons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--35
+\TU/txss/m/it/8.71 the be-gin-ning of
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 28--35
+\TU/txss/m/it/8.71 work-ing to re-fine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--35
+\TU/txss/m/it/8.71 our un-der-stand-ing
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 28--35
+\TU/txss/m/it/8.71 see whether they
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--35
+\TU/txss/m/it/8.71 pro-vide ev-i-dence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--35
+\TU/txss/m/it/8.71 these events ex-
+ []
+
+File: ./figures/Fotios-MinJeongKimBW.jpg Graphic file (type jpg)
+<use ./figures/Fotios-MinJeongKimBW.jpg>
+Package luatex.def Info: ./figures/Fotios-MinJeongKimBW.jpg  used on input line
+ 53.
+(luatex.def)             Requested size: 254.99559pt x 87.90831pt.
+) (./tex/CMS-HIG-21-010.tex) (./tex/CMS-HIG-18-015.tex)
+File: ./figures/NewspaperTitle.png Graphic file (type png)
+<use ./figures/NewspaperTitle.png>
+Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 19.
+(luatex.def)             Requested size: 456.32678pt x 87.17488pt.
+ [2])
 \tf@nav=\write7
 
 \openout7 = poster.nav
@@ -2429,32 +2609,35 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42722 strings out of 477250
- 195338,1977958 words of node,token memory allocated
+ 42824 strings out of 477250
+ 244182,1977958 words of node,token memory allocated
  4483 words of node memory still in use:
    52 hlist, 7 vlist, 6 rule, 13 disc, 12 local_par, 2 math, 149 glue, 29 kern, 
 26 penalty, 176 glyph, 144 attribute, 67 glue_spec, 144 attribute_list, 3 write,
  40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore n
 odes
-   avail lists: 2:1803,3:1372,4:309,5:1076,6:84,7:20533,8:12,9:1307,10:31,11:153
-6
- 61729 multiletter control sequences out of 65536+600000
- 137 fonts using 9342391 bytes
- 128i,21n,133p,409b,1364s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.ot
-f>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/te
-xlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local
-/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf>{/usr/loc
-al/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/at
-tikis/Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>
-></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.
-otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb
-></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (1 page, 325622 bytes).
+   avail lists: 2:1785,3:1462,4:321,5:1286,6:96,7:23593,8:28,9:1443,10:31,11:175
+2
+ 61763 multiletter control sequences out of 65536+600000
+ 138 fonts using 9474079 bytes
+ 128i,21n,133p,409b,1380s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texl
+ive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive/2022/te
+xmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2022/
+texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/202
+2/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/
+2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf>{/usr/local/texliv
+e/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/attikis/Lib
+rary/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></usr/lo
+cal/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on poster.pdf (2 pages, 2361259 bytes).
 
-PDF statistics: 77 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 131072)
+PDF statistics: 101 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 100000000)
 
