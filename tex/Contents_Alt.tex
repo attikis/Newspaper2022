@@ -1,0 +1,46 @@
+%\newlength{\ColumnWidth}
+%\setlength{\ColumnWidth}{0.315\paperwidth}
+
+
+%\begin{columns}[t] % split up that three-column-wide column
+  % Left
+ % \begin{column}[t]{0.27\paperwidth}
+  \input{./tex/Professor_Alt.tex}
+  \vspace{-0.8cm}
+  \begin{multicols*}{3}
+    \input{./tex/HiggsBoson_LHC.tex}
+    %\vfill
+    \input{./tex/MultiMuons1_CDF.tex} 
+    \input{./tex/MultiMuons2_CDF.tex}  
+    %\input{./tex/HExtended.tex} 
+    \input{./tex/CMS-HIG-18-015}
+    \input{./tex/ads.tex}
+  %\end{column}
+  \columnbreak
+  % Centre
+  %\begin{column}{0.44\paperwidth}
+    %\input{./tex/Professor_v3.tex}
+    %\vspace{-5.5cm}
+    %\input{./tex/ads.tex}
+    \input{./tex/TopQuark_Tevatron.tex}
+    \input{./tex/CMS-HIG-21-010}
+    %\vfill
+    %\input{./tex/HExtended.tex}
+    %\vfill
+    %\input{./tex/FermilabToday.tex}
+  %\end{column}
+  \columnbreak
+  % Right
+  %\begin{column}{0.27\paperwidth}
+    \input{./tex/FermilabToday.tex}
+    %\input{./tex/TopQuark_Tevatron.tex}
+     %\vfill
+     %\input{./tex/MultiMuons2_CDF.tex}
+     %\vfill
+     %\input{./tex/CMS-HIG-18-015}
+     %\vfill
+     %\input{./tex/CMS-HIG-21-010}
+  %\end{column}
+%\end{columns}
+\end{multicols*}   
+%\vspace{-2.0cm}

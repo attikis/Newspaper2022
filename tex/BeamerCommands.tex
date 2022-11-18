@@ -94,7 +94,7 @@
   % titlerule style = black,
   titlerule style = {black, arrows = {Hooks [arc=270]-Hooks [arc=270]}},
   opacityback     = 1.0, % 1.0 means totally transparent, 0.0 means totally opaque
-  top             =-0.5cm,
+  top             =-0.0cm,
   bottom          = 0.0cm,
   left            = 0.05cm,
   right           = 0.05cm,
@@ -121,11 +121,11 @@
   % titlerule style = black,
   %titlerule style = {black, arrows = {Hooks [arc=270]-Hooks [arc=270]}},
   opacityback     = 1.0, % 1.0 means totally transparent, 0.0 means totally opaque
-  top             = -1.0cm,
-  bottom          = 0.0cm,
-  left            = 0.05cm,
-  right           = 0.05cm,
-  arc             = 0.0cm, % 0.0cm for non-rounded corners!
+  top             = +0.00cm,
+  bottom          = +0.00cm,
+  left            = +0.05cm,
+  right           = +0.05cm,
+  arc             = +0.00cm, % 0.0cm for non-rounded corners!
   sharp corners,
   frame hidden,
   parbox=false,
@@ -142,16 +142,14 @@
   title        = {\Large{\textbf{#2}}},
   fonttitle    = \bfseries,
   boxrule      = 0pt, %frame line width
-  borderline={1mm}{0mm}{solid}, % dashed  {dot width}{margin width}
+  % borderline   = {1mm}{0mm}{solid}, % dashed  {dot width}{margin width}
   titlerule    = 0pt, %tiitle line width
-  %tikz={rotate=#3}, % manipulate the tcolorbox as a whole (in degrees)
-  top=-0.0cm, bottom=+0.0cm, left=+0.05cm, right=+0.05cm,
-  %enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
-  %enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
-  %enlarge left by  = +1.5cm,  
-  %enlarge right by = +0.0cm, 
-  opacityback=1.0, % 1.0 means totally transparent, 0.0 means totally opaque
-  arc=0.0cm,        % 0.0cm for non-rounded corners!
+  opacityback  = 1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  top          = -0.20cm,
+  bottom       = +0.00cm,
+  left         = +0.05cm,
+  right        = +0.05cm,
+  arc          = +0.00cm, % 0.0cm for non-rounded corners!
   sharp corners,
   #1,
 }
