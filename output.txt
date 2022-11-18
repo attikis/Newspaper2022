@@ -900,26 +900,16 @@ LaTeX Font Warning: Font shape `TU/txss/b/n' undefined
 (./tex/Contents_v4.tex (./tex/Professor_v4.tex
 
 LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
-(Font)              using `TU/txss/m/n' instead on input line 50.
+(Font)              using `TU/txss/m/n' instead on input line 49.
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 64--66
+Overfull \hbox (5.0pt too wide) in paragraph at lines 63--65
  [] 
-(./tex/HiggsBoson_LHC.tex
-Missing character: There is no − (U+2212) in font txss!
-Missing character: There is no − (U+2212) in font txss!
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 26--28
- [] 
-) (./tex/IPPOG.tex
-Overfull \hbox (5.0pt too wide) in paragraph at lines 31--33
- [] 
-)
+) (./tex/CMS-HIG-18-015.tex) (./tex/CMS-HIG-21-010.tex)
 Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 [][][][] 
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figu
-res/NewspaperTitle.png><./figures/Fotis7.png><./figures/HiggsBosonDiscoveryBW.p
-ng><./figures/Fotis6.png>])) (./poster.aux)
+res/NewspaperTitle.png><./figures/Fotis7.png>]) (./poster.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.54pt have occurred.
@@ -934,19 +924,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  26 penalty, 176 glyph, 144 attribute, 67 glue_spec, 144 attribute_list, 3 writ
 e, 40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restor
 e nodes
-   avail lists: 1:2,2:1783,3:1396,4:333,5:1145,6:90,7:21499,8:28,9:1364,10:31,1
-1:1647
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
-live/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive/2022/
-texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/20
-22/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texliv
-e/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf>{/usr/local/tex
-live/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/attikis
-/Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></u
-sr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf
-></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (1 page, 7225110 bytes).
+   avail lists: 2:1803,3:1372,4:309,5:1076,6:84,7:20533,8:12,9:1307,10:31,11:15
+36
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.o
+tf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
+texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/lo
+cal/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf>{/usr
+/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Use
+rs/attikis/Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.
+752pk>></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-r
+egular.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm
+0900.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on poster.pdf (1 page, 325622 bytes).
 Transcript written on poster.log.

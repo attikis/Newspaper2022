@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  18 NOV 2022 17:50
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  18 NOV 2022 18:03
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -2362,67 +2362,42 @@ LaTeX Font Warning: Font shape `TU/txss/b/n' undefined
 (./tex/Contents_v4.tex (./tex/Professor_v4.tex
 
 LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
-(Font)              using `TU/txss/m/n' instead on input line 50.
+(Font)              using `TU/txss/m/n' instead on input line 49.
 
 <./figures/Fotis7.png, id=15, 869.2475pt x 482.80376pt>
 File: ./figures/Fotis7.png Graphic file (type png)
 <use ./figures/Fotis7.png>
-Package luatex.def Info: ./figures/Fotis7.png  used on input line 65.
+Package luatex.def Info: ./figures/Fotis7.png  used on input line 64.
 (luatex.def)             Requested size: 198.80328pt x 110.41634pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 64--66
+Overfull \hbox (5.0pt too wide) in paragraph at lines 63--65
  [] 
  []
 
-(./tex/HiggsBoson_LHC.tex
-LaTeX Font Info:    Calculating math sizes for size <8.71> on input line 9.
+) (./tex/CMS-HIG-18-015.tex
+LaTeX Font Info:    Calculating math sizes for size <8.71> on input line 3.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.27448pt on input line 9.
+(Font)              scaled to size 8.27448pt on input line 3.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.7921pt on input line 9.
+(Font)              scaled to size 5.7921pt on input line 3.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.13722pt on input line 9.
+(Font)              scaled to size 4.13722pt on input line 3.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 7.83894pt on input line 9.
+(Font)              scaled to size 7.83894pt on input line 3.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 5.48723pt on input line 9.
+(Font)              scaled to size 5.48723pt on input line 3.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 3.91946pt on input line 9.
+(Font)              scaled to size 3.91946pt on input line 3.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 7.83894pt on input line 9.
+(Font)              scaled to size 7.83894pt on input line 3.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 5.48723pt on input line 9.
+(Font)              scaled to size 5.48723pt on input line 3.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 3.91946pt on input line 9.
-
-Missing character: There is no − (U+2212) in font txss!
-Missing character: There is no − (U+2212) in font txss!
-<./figures/HiggsBosonDiscoveryBW.png, id=16, 2055.68pt x 1074.0125pt>
-File: ./figures/HiggsBosonDiscoveryBW.png Graphic file (type png)
-<use ./figures/HiggsBosonDiscoveryBW.png>
-Package luatex.def Info: ./figures/HiggsBosonDiscoveryBW.png  used on input lin
-e 27.
-(luatex.def)             Requested size: 198.80328pt x 103.85132pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 26--28
- [] 
- []
-
-) (./tex/IPPOG.tex
-<./figures/Fotis6.png, id=17, 2863.69875pt x 2038.61626pt>
-File: ./figures/Fotis6.png Graphic file (type png)
-<use ./figures/Fotis6.png>
-Package luatex.def Info: ./figures/Fotis6.png  used on input line 32.
-(luatex.def)             Requested size: 198.80328pt x 141.50455pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 31--33
- [] 
- []
-
-)
+(Font)              scaled to size 3.91946pt on input line 3.
+) (./tex/CMS-HIG-21-010.tex)
 File: ./figures/NewspaperTitle.png Graphic file (type png)
 <use ./figures/NewspaperTitle.png>
-Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 79.
+Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 6.
 (luatex.def)             Requested size: 456.32678pt x 87.17488pt.
 
 Overfull \hbox (1.98239pt too wide) has occurred while \output is active
@@ -2431,8 +2406,7 @@ Overfull \hbox (1.98239pt too wide) has occurred while \output is active
 
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<./figures/NewspaperTitle.png><./figures/Fotis7.png><./figures/HiggsBosonDiscove
-ryBW.png><./figures/Fotis6.png>]))
+<./figures/NewspaperTitle.png><./figures/Fotis7.png>])
 \tf@nav=\write7
 
 \openout7 = poster.nav
@@ -2455,34 +2429,32 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42749 strings out of 477250
- 244172,1977958 words of node,token memory allocated
+ 42722 strings out of 477250
+ 195338,1977958 words of node,token memory allocated
  4483 words of node memory still in use:
    52 hlist, 7 vlist, 6 rule, 13 disc, 12 local_par, 2 math, 149 glue, 29 kern, 
 26 penalty, 176 glyph, 144 attribute, 67 glue_spec, 144 attribute_list, 3 write,
  40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore n
 odes
-   avail lists: 1:2,2:1783,3:1396,4:333,5:1145,6:90,7:21499,8:28,9:1364,10:31,11
-:1647
- 61740 multiletter control sequences out of 65536+600000
+   avail lists: 2:1803,3:1372,4:309,5:1076,6:84,7:20533,8:12,9:1307,10:31,11:153
+6
+ 61729 multiletter control sequences out of 65536+600000
  137 fonts using 9342391 bytes
- 128i,21n,133p,409b,1361s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texl
-ive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive/2022/te
-xmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2022/
-texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/20
-22/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf>{/usr/local/texlive/
-2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/attikis/Libra
-ry/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></usr/loca
-l/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (1 page, 7225110 bytes).
+ 128i,21n,133p,409b,1364s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.ot
+f>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/te
+xlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local
+/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf>{/usr/loc
+al/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/at
+tikis/Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>
+></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.
+otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on poster.pdf (1 page, 325622 bytes).
 
-PDF statistics: 86 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+PDF statistics: 77 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 100000000)
 
