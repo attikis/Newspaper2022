@@ -717,6 +717,12 @@ FP debug: upn: +++ result of upn-expression is "(0.70)"
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/lmodern.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/kerkis/kmath.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/txfonts.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/datetime/datetime.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fmtcount/fcnumparser.sty)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/datetime/datetime-defaults.sty))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty)
@@ -728,7 +734,6 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption-beamer.sto))))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/epsfig.sty)
@@ -873,10 +878,10 @@ ionary-English.dict)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-numbers-dic
 tionary-English.dict)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-theorem-dic
-tionary-English.dict) (./poster.nav)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/ifsym/uifwea.fd)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/ot1txss.fd)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/kerkis/omlmak.fd)
+tionary-English.dict)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fmtcount/fc-english.def)
+(./poster.nav) (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/ot1txss.fd
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/kerkis/omlmak.fd)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxsya.fd)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/utxsyb.fd)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/ot1txr.fd)
@@ -891,6 +896,7 @@ LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <12.54> not available
 LaTeX Font Warning: Font shape `TU/txss/m/it' undefined
 (Font)              using `TU/txss/m/n' instead on input line 74.
 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ifsym/uifwea.fd)
 
 LaTeX Font Warning: Font shape `TU/txss/b/n' undefined
 (Font)              using `TU/txss/m/n' instead on input line 74.
@@ -903,22 +909,25 @@ LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 63--65
  [] 
-) (./tex/FermilabToday.tex
-Underfull \hbox (badness 7631) in paragraph at lines 22--27
-[]\TU/txss/m/sc/8.71 The source of these back-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\TU/txss/m/sc/8.71 ground events, whim-si-cally
-) (./tex/HiggsBoson_LHC.tex
+) (./tex/AdsRestaurants.tex) (./tex/TopQuark_Tevatron.tex
+Overfull \hbox (5.0pt too wide) in paragraph at lines 17--20
+ [] 
+) (./tex/AdsRestaurants.tex) (./tex/HiggsBoson_LHC.tex
 Missing character: There is no − (U+2212) in font txss!
 Missing character: There is no − (U+2212) in font txss!
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 26--28
  [] 
+) (./tex/FermilabToday.tex
+Underfull \hbox (badness 7631) in paragraph at lines 22--27
+[]\TU/txss/m/it/8.71 The source of these back-
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+\TU/txss/m/it/8.71 ground events, whim-si-cally
 ) (./tex/AdsRestaurants.tex) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdf
 tex/updmap/pdftex.map}<./figures/NewspaperTitle.png><./figures/Fotis7.png><./fi
-gures/Fotios-MinJeongKimBW.jpg><./figures/HiggsBosonDiscoveryBW.png><./figures/
-restaurants.png>] (./tex/FermilabToday.tex
+gures/restaurants.png><./figures/TopQuark2BW.jpg><./figures/HiggsBosonDiscovery
+BW.png><./figures/Fotios-MinJeongKimBW.jpg>] (./tex/FermilabToday.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
 \TU/txss/m/it/8.71 di-tion to solv-ing
 
@@ -1012,25 +1021,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 (see the transcript file for additional information)
- 4483 words of node memory still in use:
-   52 hlist, 7 vlist, 6 rule, 13 disc, 12 local_par, 2 math, 149 glue, 29 kern,
- 26 penalty, 176 glyph, 144 attribute, 67 glue_spec, 144 attribute_list, 3 writ
+ 4640 words of node memory still in use:
+   54 hlist, 7 vlist, 6 rule, 14 disc, 12 local_par, 4 math, 150 glue, 31 kern,
+ 26 penalty, 187 glyph, 149 attribute, 67 glue_spec, 149 attribute_list, 3 writ
 e, 40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restor
 e nodes
-   avail lists: 2:1785,3:1462,4:321,5:1286,6:96,7:23593,8:28,9:1443,10:31,11:17
-52
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
-live/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive/2022/
-texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/20
-22/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive
-/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/tex
-live/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf>{/usr/local/
-texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/atti
-kis/Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>>
+   avail lists: 2:2335,3:1876,4:381,5:1424,6:126,7:26557,8:28,9:1818,10:32,11:1
+914
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.o
+tf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}{/usr/l
+ocal/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/20
+22/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive
+/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>{/usr/local/tex
+live/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/attikis
+/Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></u
+sr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf>
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.
 otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic
-.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0900.p
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
 fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></us
 r/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (2 pages, 2361259 bytes).
+Output written on poster.pdf (2 pages, 3081989 bytes).
 Transcript written on poster.log.
