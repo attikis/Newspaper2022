@@ -765,6 +765,7 @@ tex)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/varwidth/varwidth.sty)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
@@ -901,117 +902,23 @@ LaTeX Font Warning: Font shape `TU/txss/m/it' undefined
 LaTeX Font Warning: Font shape `TU/txss/b/n' undefined
 (Font)              using `TU/txss/m/n' instead on input line 74.
 
-(./tex/Contents_v4.tex (./tex/Professor_v4.tex
+(./tex/Contents_v5.tex (./tex/Professor_v5.tex
 
 LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
-(Font)              using `TU/txss/m/n' instead on input line 49.
+(Font)              using `TU/txss/m/n' instead on input line 67.
 
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 63--65
- [] 
-) (./tex/AdsRestaurants.tex) (./tex/TopQuark_Tevatron.tex
-Overfull \hbox (5.0pt too wide) in paragraph at lines 17--20
- [] 
-) (./tex/AdsRestaurants.tex) (./tex/HiggsBoson_LHC.tex
+) (./tex/HiggsBoson_LHC.tex
 Missing character: There is no − (U+2212) in font txss!
 Missing character: There is no − (U+2212) in font txss!
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--24
+[]\TU/txss/m/sc/8.71 Re-sults are pre-sented from
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 26--28
  [] 
-) (./tex/FermilabToday.tex
-Underfull \hbox (badness 7631) in paragraph at lines 22--27
-[]\TU/txss/m/it/8.71 The source of these back-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 ground events, whim-si-cally
-) (./tex/AdsRestaurants.tex) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdf
-tex/updmap/pdftex.map}<./figures/NewspaperTitle.png><./figures/Fotis7.png><./fi
-gures/restaurants.png><./figures/TopQuark2BW.jpg><./figures/HiggsBosonDiscovery
-BW.png><./figures/Fotios-MinJeongKimBW.jpg>] (./tex/FermilabToday.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-\TU/txss/m/it/8.71 di-tion to solv-ing
-
-Underfull \hbox (badness 7362) in paragraph at lines 4--9
-\TU/txss/m/it/8.71 searchers ob-served
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-[]\TU/txss/m/it/8.71 The work be-gins
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 at the Teva-tron.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 Al-though pre-vi-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 ous mea-sure-ments
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 showed de-vi-a-tions
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 pro-duc-tion rates,
-
-Underfull \hbox (badness 6220) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 this newer, more
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 pre-cise mea-sure-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 CDF found that
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 sure-ments could
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 be ex-plained by
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 vi-ously iden-ti-fied.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 Ear-lier anal-y-ses
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 back-ground from
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 the bottom-quark
-
-Underfull \hbox (badness 7740) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 searchers to mis-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 whim-si-cally called
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 the new puz-zle.
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 vi-ously iden-ti-fied.
-
-Underfull \hbox (badness 7064) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 tain more muons
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 the be-gin-ning of
-
-Underfull \hbox (badness 6691) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 work-ing to re-fine
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 our un-der-stand-ing
-
-Underfull \hbox (badness 7064) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 see whether they
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 pro-vide ev-i-dence
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 these events ex-
-) (./tex/CMS-HIG-21-010.tex) (./tex/CMS-HIG-18-015.tex) [2]) (./poster.aux)
+)) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./f
+igures/NewspaperTitle.png><./figures/Fotis7.png><./figures/HiggsBosonDiscoveryB
+W.png>] (./poster.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.54pt have occurred.
@@ -1021,25 +928,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 (see the transcript file for additional information)
- 4640 words of node memory still in use:
-   54 hlist, 7 vlist, 6 rule, 14 disc, 12 local_par, 4 math, 150 glue, 31 kern,
- 26 penalty, 187 glyph, 149 attribute, 67 glue_spec, 149 attribute_list, 3 writ
+ 4627 words of node memory still in use:
+   53 hlist, 7 vlist, 6 rule, 14 disc, 12 local_par, 4 math, 150 glue, 31 kern,
+ 26 penalty, 187 glyph, 148 attribute, 67 glue_spec, 148 attribute_list, 3 writ
 e, 40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restor
 e nodes
-   avail lists: 2:2335,3:1876,4:381,5:1424,6:126,7:26557,8:28,9:1818,10:32,11:1
-914
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.o
-tf>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}{/usr/l
-ocal/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/20
-22/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive
-/2022/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>{/usr/local/tex
-live/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/attikis
-/Library/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></u
-sr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf>
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.
-otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic
-.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
-fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (2 pages, 3081989 bytes).
+   avail lists: 2:1412,3:1135,4:249,5:888,6:63,7:16510,8:28,9:1136,10:21,11:127
+5
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
+live/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive/2022/
+texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/20
+22/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>{/usr/local/texliv
+e/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/attikis/Li
+brary/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></usr/
+local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></u
+sr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on poster.pdf (1 page, 2228381 bytes).
 Transcript written on poster.log.

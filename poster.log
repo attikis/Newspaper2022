@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  19 NOV 2022 08:26
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  19 NOV 2022 12:20
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -1876,12 +1876,20 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 Package: dirtytalk 2010/11/21 A package making "quoting" easier
 \c@dirtytalk@qdepth=\count416
 )
+(/usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen331
+\WF@size=\dimen332
+\c@WF@wrappedlines=\count417
+\WF@box=\box137
+\WF@everypar=\toks60
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box137
-\sift@deathcycles=\count417
-\@vwid@loff=\dimen331
-\@vwid@roff=\dimen332
+\@vwid@box=\box138
+\sift@deathcycles=\count418
+\@vwid@loff=\dimen333
+\@vwid@roff=\dimen334
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
@@ -1889,10 +1897,10 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen333
-\pgffor@skip=\dimen334
-\pgffor@stack=\toks60
-\pgffor@toks=\toks61
+\pgffor@iter=\dimen335
+\pgffor@skip=\dimen336
+\pgffor@stack=\toks61
+\pgffor@toks=\toks62
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1901,34 +1909,34 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count418
-\pgfplotmarksize=\dimen335
+\pgf@plot@mark@count=\count419
+\pgfplotmarksize=\dimen337
 )
-\tikz@lastx=\dimen336
-\tikz@lasty=\dimen337
-\tikz@lastxsaved=\dimen338
-\tikz@lastysaved=\dimen339
-\tikz@lastmovetox=\dimen340
-\tikz@lastmovetoy=\dimen341
-\tikzleveldistance=\dimen342
-\tikzsiblingdistance=\dimen343
-\tikz@figbox=\box138
-\tikz@figbox@bg=\box139
-\tikz@tempbox=\box140
-\tikz@tempbox@bg=\box141
-\tikztreelevel=\count419
-\tikznumberofchildren=\count420
-\tikznumberofcurrentchild=\count421
-\tikz@fig@count=\count422
+\tikz@lastx=\dimen338
+\tikz@lasty=\dimen339
+\tikz@lastxsaved=\dimen340
+\tikz@lastysaved=\dimen341
+\tikz@lastmovetox=\dimen342
+\tikz@lastmovetoy=\dimen343
+\tikzleveldistance=\dimen344
+\tikzsiblingdistance=\dimen345
+\tikz@figbox=\box139
+\tikz@figbox@bg=\box140
+\tikz@tempbox=\box141
+\tikz@tempbox@bg=\box142
+\tikztreelevel=\count420
+\tikznumberofchildren=\count421
+\tikznumberofcurrentchild=\count422
+\tikz@fig@count=\count423
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count423
-\pgfmatrixcurrentcolumn=\count424
-\pgf@matrix@numberofcolumns=\count425
+\pgfmatrixcurrentrow=\count424
+\pgfmatrixcurrentcolumn=\count425
+\pgf@matrix@numberofcolumns=\count426
 )
-\tikz@expandcount=\count426
+\tikz@expandcount=\count427
 
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1936,30 +1944,30 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/media9/media9.sty
 Package: media9 2022/08/04 v1.25 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count427
+\g_mix_pkgresizeflag_int=\count428
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count428
-\g_pbs_oc_int=\count429
+\g_pbs_page_int=\count429
+\g_pbs_oc_int=\count430
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count430
+\g_ocgbase_nd_int=\count431
 )
-\l_mix_poster_box=\box142
-\g_mix_wd_dim=\dimen344
-\g_mix_ht_dim=\dimen345
-\g_mix_dp_dim=\dimen346
-\g_mix_rmcnt_int=\count431
-\l_mix_viewcnt_int=\count432
-\g@mix@page@int=\count433
-\g_mix_resizeflag_int=\count434
-\l_mix_lineno_int=\count435
-\l_mix_pbtn_box=\box143
-\g_mix_mbtncnt_int=\count436
-\mix@btn@dim=\dimen347
+\l_mix_poster_box=\box143
+\g_mix_wd_dim=\dimen346
+\g_mix_ht_dim=\dimen347
+\g_mix_dp_dim=\dimen348
+\g_mix_rmcnt_int=\count432
+\l_mix_viewcnt_int=\count433
+\g@mix@page@int=\count434
+\g_mix_resizeflag_int=\count435
+\l_mix_lineno_int=\count436
+\l_mix_pbtn_box=\box144
+\g_mix_mbtncnt_int=\count437
+\mix@btn@dim=\dimen349
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.pathmorphing.code.tex
@@ -1967,16 +1975,16 @@ s/tikzlibrarydecorations.pathmorphing.code.tex
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen348
-\pgfdecoratedremainingdistance=\dimen349
-\pgfdecoratedinputsegmentcompleteddistance=\dimen350
-\pgfdecoratedinputsegmentremainingdistance=\dimen351
-\pgf@decorate@distancetomove=\dimen352
-\pgf@decorate@repeatstate=\count437
-\pgfdecorationsegmentamplitude=\dimen353
-\pgfdecorationsegmentlength=\dimen354
+\pgfdecoratedcompleteddistance=\dimen350
+\pgfdecoratedremainingdistance=\dimen351
+\pgfdecoratedinputsegmentcompleteddistance=\dimen352
+\pgfdecoratedinputsegmentremainingdistance=\dimen353
+\pgf@decorate@distancetomove=\dimen354
+\pgf@decorate@repeatstate=\count438
+\pgfdecorationsegmentamplitude=\dimen355
+\pgfdecorationsegmentlength=\dimen356
 )
-\tikz@lib@dec@box=\box144
+\tikz@lib@dec@box=\box145
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathmorphing.code.tex))
@@ -1992,9 +2000,9 @@ brarydecorations.pathreplacing.code.tex))
 s/tikzlibrarydecorations.text.code.tex
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.text.code.tex
-\pgf@lib@dec@text@box=\box145
+\pgf@lib@dec@text@box=\box146
 )
-\tikz@lib@dec@te@box=\box146
+\tikz@lib@dec@te@box=\box147
 )
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryshapes.code.tex
@@ -2043,26 +2051,26 @@ File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
 shapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodepartlowerbox=\box147
-\pgfnodeparttwobox=\box148
-\pgfnodepartthreebox=\box149
-\pgfnodepartfourbox=\box150
-\pgfnodeparttwentybox=\box151
-\pgfnodepartnineteenbox=\box152
-\pgfnodeparteighteenbox=\box153
-\pgfnodepartseventeenbox=\box154
-\pgfnodepartsixteenbox=\box155
-\pgfnodepartfifteenbox=\box156
-\pgfnodepartfourteenbox=\box157
-\pgfnodepartthirteenbox=\box158
-\pgfnodeparttwelvebox=\box159
-\pgfnodepartelevenbox=\box160
-\pgfnodeparttenbox=\box161
-\pgfnodepartninebox=\box162
-\pgfnodeparteightbox=\box163
-\pgfnodepartsevenbox=\box164
-\pgfnodepartsixbox=\box165
-\pgfnodepartfivebox=\box166
+\pgfnodepartlowerbox=\box148
+\pgfnodeparttwobox=\box149
+\pgfnodepartthreebox=\box150
+\pgfnodepartfourbox=\box151
+\pgfnodeparttwentybox=\box152
+\pgfnodepartnineteenbox=\box153
+\pgfnodeparteighteenbox=\box154
+\pgfnodepartseventeenbox=\box155
+\pgfnodepartsixteenbox=\box156
+\pgfnodepartfifteenbox=\box157
+\pgfnodepartfourteenbox=\box158
+\pgfnodepartthirteenbox=\box159
+\pgfnodeparttwelvebox=\box160
+\pgfnodepartelevenbox=\box161
+\pgfnodeparttenbox=\box162
+\pgfnodepartninebox=\box163
+\pgfnodeparteightbox=\box164
+\pgfnodepartsevenbox=\box165
+\pgfnodepartsixbox=\box166
+\pgfnodepartfivebox=\box167
 )))
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypatterns.code.tex
@@ -2074,7 +2082,7 @@ File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '5.1.1'
-\tcb@waterbox=\box167
+\tcb@waterbox=\box168
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.1.1'
@@ -2099,18 +2107,18 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen355
-\pgfarrowlength=\dimen356
-\pgfarrowwidth=\dimen357
-\pgfarrowlinewidth=\dimen358
+\pgfarrowinset=\dimen357
+\pgfarrowlength=\dimen358
+\pgfarrowwidth=\dimen359
+\pgfarrowlinewidth=\dimen360
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 93.
-Package hyperref Info: Option `unicode' set `true' on input line 93.
-Package hyperref Info: Option `pdftoolbar' set `false' on input line 93.
-Package hyperref Info: Option `pdfmenubar' set `false' on input line 93.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 93.
-Package hyperref Info: Option `pdfnewwindow' set `false' on input line 93.
-Package hyperref Info: Option `colorlinks' set `false' on input line 93.
+Package hyperref Info: Option `plainpages' set `false' on input line 95.
+Package hyperref Info: Option `unicode' set `true' on input line 95.
+Package hyperref Info: Option `pdftoolbar' set `false' on input line 95.
+Package hyperref Info: Option `pdfmenubar' set `false' on input line 95.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 95.
+Package hyperref Info: Option `pdfnewwindow' set `false' on input line 95.
+Package hyperref Info: Option `colorlinks' set `false' on input line 95.
 ) (./tex/BeamerCommands.tex) (./tex/LatexCommands.tex)
 (./beamerthemeconfposter.sty) (./poster.aux)
 \openout1 = poster.aux
@@ -2209,17 +2217,17 @@ LaTeX Font Warning: Font shape `TU/txss/m/n' undefined
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count438
-\scratchdimen=\dimen359
-\scratchbox=\box168
-\nofMPsegments=\count439
-\nofMParguments=\count440
-\everyMPshowfont=\toks62
-\MPscratchCnt=\count441
-\MPscratchDim=\dimen360
-\MPnumerator=\count442
-\makeMPintoPDFobject=\count443
-\everyMPtoPDFconversion=\toks63
+\scratchcounter=\count439
+\scratchdimen=\dimen361
+\scratchbox=\box169
+\nofMPsegments=\count440
+\nofMParguments=\count441
+\everyMPshowfont=\toks63
+\MPscratchCnt=\count442
+\MPscratchDim=\dimen362
+\MPnumerator=\count443
+\makeMPintoPDFobject=\count444
+\everyMPtoPDFconversion=\toks64
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2311,6 +2319,7 @@ File: fc-english.def 2016/01/12
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package gensymb Info: Math companion symbols found on input line 74.
 LaTeX Info: Redefining \degree on input line 74.
@@ -2404,257 +2413,64 @@ LaTeX Font Info:    Trying to load font information for U+ifwea on input line 7
 LaTeX Font Warning: Font shape `TU/txss/b/n' undefined
 (Font)              using `TU/txss/m/n' instead on input line 74.
 
-(./tex/Contents_v4.tex (./tex/Professor_v4.tex
-
-LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
-(Font)              using `TU/txss/m/n' instead on input line 49.
-
+(./tex/Contents_v5.tex (./tex/Professor_v5.tex
+LaTeX Font Info:    Calculating math sizes for size <8.71> on input line 5.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.27448pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.7921pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.13722pt on input line 5.
+LaTeX Font Info:    Font shape `OML/mak/m/it' will be
+(Font)              scaled to size 7.83894pt on input line 5.
+LaTeX Font Info:    Font shape `OML/mak/m/it' will be
+(Font)              scaled to size 5.48723pt on input line 5.
+LaTeX Font Info:    Font shape `OML/mak/m/it' will be
+(Font)              scaled to size 3.91946pt on input line 5.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 7.83894pt on input line 5.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 5.48723pt on input line 5.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 3.91946pt on input line 5.
 <./figures/Fotis7.png, id=15, 869.2475pt x 482.80376pt>
 File: ./figures/Fotis7.png Graphic file (type png)
 <use ./figures/Fotis7.png>
-Package luatex.def Info: ./figures/Fotis7.png  used on input line 64.
-(luatex.def)             Requested size: 198.80328pt x 110.41634pt.
+Package luatex.def Info: ./figures/Fotis7.png  used on input line 44.
+(luatex.def)             Requested size: 150.65205pt x 83.67418pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 63--65
- [] 
- []
 
-) (./tex/AdsRestaurants.tex
-<./figures/restaurants.png, id=16, 218.781pt x 47.085pt>
-File: ./figures/restaurants.png Graphic file (type png)
-<use ./figures/restaurants.png>
-Package luatex.def Info: ./figures/restaurants.png  used on input line 6.
-(luatex.def)             Requested size: 250.10228pt x 53.82904pt.
-) (./tex/TopQuark_Tevatron.tex
-LaTeX Font Info:    Calculating math sizes for size <8.71> on input line 3.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.27448pt on input line 3.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.7921pt on input line 3.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.13722pt on input line 3.
-LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 7.83894pt on input line 3.
-LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 5.48723pt on input line 3.
-LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 3.91946pt on input line 3.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 7.83894pt on input line 3.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 5.48723pt on input line 3.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 3.91946pt on input line 3.
-<./figures/TopQuark2BW.jpg, id=17, 2569.6pt x 1713.40125pt>
-File: ./figures/TopQuark2BW.jpg Graphic file (type jpg)
-<use ./figures/TopQuark2BW.jpg>
-Package luatex.def Info: ./figures/TopQuark2BW.jpg  used on input line 19.
-(luatex.def)             Requested size: 198.80328pt x 132.55193pt.
+LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
+(Font)              using `TU/txss/m/n' instead on input line 67.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 17--20
- [] 
- []
-
-) (./tex/AdsRestaurants.tex
-File: ./figures/restaurants.png Graphic file (type png)
-<use ./figures/restaurants.png>
-Package luatex.def Info: ./figures/restaurants.png  used on input line 6.
-(luatex.def)             Requested size: 250.10228pt x 53.82904pt.
 ) (./tex/HiggsBoson_LHC.tex
 Missing character: There is no − (U+2212) in font txss!
 Missing character: There is no − (U+2212) in font txss!
-<./figures/HiggsBosonDiscoveryBW.png, id=18, 2055.68pt x 1074.0125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--24
+[]\TU/txss/m/sc/8.71 Re-sults are pre-sented from
+ []
+
+<./figures/HiggsBosonDiscoveryBW.png, id=16, 2055.68pt x 1074.0125pt>
 File: ./figures/HiggsBosonDiscoveryBW.png Graphic file (type png)
 <use ./figures/HiggsBosonDiscoveryBW.png>
 Package luatex.def Info: ./figures/HiggsBosonDiscoveryBW.png  used on input lin
 e 27.
-(luatex.def)             Requested size: 198.80328pt x 103.85132pt.
+(luatex.def)             Requested size: 138.78088pt x 72.5009pt.
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 26--28
  [] 
  []
 
-) (./tex/FermilabToday.tex
-Underfull \hbox (badness 7631) in paragraph at lines 22--27
-[]\TU/txss/m/it/8.71 The source of these back-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 ground events, whim-si-cally
- []
-
-<./figures/Fotios-MinJeongKimBW.jpg, id=19, 468.75125pt x 161.60374pt>
-File: ./figures/Fotios-MinJeongKimBW.jpg Graphic file (type jpg)
-<use ./figures/Fotios-MinJeongKimBW.jpg>
-Package luatex.def Info: ./figures/Fotios-MinJeongKimBW.jpg  used on input line
- 53.
-(luatex.def)             Requested size: 316.48645pt x 109.10986pt.
-) (./tex/AdsRestaurants.tex
-File: ./figures/restaurants.png Graphic file (type png)
-<use ./figures/restaurants.png>
-Package luatex.def Info: ./figures/restaurants.png  used on input line 6.
-(luatex.def)             Requested size: 250.10228pt x 53.82904pt.
-)
+))
 File: ./figures/NewspaperTitle.png Graphic file (type png)
 <use ./figures/NewspaperTitle.png>
-Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 18.
+Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 84.
 (luatex.def)             Requested size: 456.32678pt x 87.17488pt.
  [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<./figures/NewspaperTitle.png><./figures/Fotis7.png><./figures/restaurants.png><
-./figures/TopQuark2BW.jpg><./figures/HiggsBosonDiscoveryBW.png><./figures/Fotios
--MinJeongKimBW.jpg>] (./tex/FermilabToday.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-\TU/txss/m/it/8.71 di-tion to solv-ing
- []
-
-
-Underfull \hbox (badness 7362) in paragraph at lines 4--9
-\TU/txss/m/it/8.71 searchers ob-served
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-[]\TU/txss/m/it/8.71 The work be-gins
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 at the Teva-tron.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 Al-though pre-vi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 ous mea-sure-ments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 showed de-vi-a-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 pro-duc-tion rates,
- []
-
-
-Underfull \hbox (badness 6220) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 this newer, more
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 pre-cise mea-sure-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 CDF found that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 sure-ments could
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 be ex-plained by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 vi-ously iden-ti-fied.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 Ear-lier anal-y-ses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 back-ground from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 the bottom-quark
- []
-
-
-Underfull \hbox (badness 7740) in paragraph at lines 10--21
-\TU/txss/m/it/8.71 searchers to mis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 whim-si-cally called
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 the new puz-zle.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 vi-ously iden-ti-fied.
- []
-
-
-Underfull \hbox (badness 7064) in paragraph at lines 22--27
-\TU/txss/m/it/8.71 tain more muons
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 the be-gin-ning of
- []
-
-
-Underfull \hbox (badness 6691) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 work-ing to re-fine
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 our un-der-stand-ing
- []
-
-
-Underfull \hbox (badness 7064) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 see whether they
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 pro-vide ev-i-dence
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
-\TU/txss/m/it/8.71 these events ex-
- []
-
-File: ./figures/Fotios-MinJeongKimBW.jpg Graphic file (type jpg)
-<use ./figures/Fotios-MinJeongKimBW.jpg>
-Package luatex.def Info: ./figures/Fotios-MinJeongKimBW.jpg  used on input line
- 53.
-(luatex.def)             Requested size: 203.99724pt x 70.32664pt.
-) (./tex/CMS-HIG-21-010.tex) (./tex/CMS-HIG-18-015.tex)
-File: ./figures/NewspaperTitle.png Graphic file (type png)
-<use ./figures/NewspaperTitle.png>
-Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 26.
-(luatex.def)             Requested size: 456.32678pt x 87.17488pt.
- [2])
+<./figures/NewspaperTitle.png><./figures/Fotis7.png><./figures/HiggsBosonDiscove
+ryBW.png>]
 \tf@nav=\write7
 
 \openout7 = poster.nav
@@ -2677,35 +2493,34 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43572 strings out of 477250
- 305235,1977958 words of node,token memory allocated
- 4640 words of node memory still in use:
-   54 hlist, 7 vlist, 6 rule, 14 disc, 12 local_par, 4 math, 150 glue, 31 kern, 
-26 penalty, 187 glyph, 149 attribute, 67 glue_spec, 149 attribute_list, 3 write,
+ 43502 strings out of 477250
+ 195335,1977958 words of node,token memory allocated
+ 4627 words of node memory still in use:
+   53 hlist, 7 vlist, 6 rule, 14 disc, 12 local_par, 4 math, 150 glue, 31 kern, 
+26 penalty, 187 glyph, 148 attribute, 67 glue_spec, 148 attribute_list, 3 write,
  40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore n
 odes
-   avail lists: 2:2335,3:1876,4:381,5:1424,6:126,7:26557,8:28,9:1818,10:32,11:19
-14
- 62410 multiletter control sequences out of 65536+600000
- 138 fonts using 9474079 bytes
- 128i,21n,133p,1035b,1380s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.ot
-f>{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}{/usr/loc
-al/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/
-texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/202
-2/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>{/usr/local/texlive/
-2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/attikis/Libra
-ry/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></usr/loca
-l/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/lo
-cal/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (2 pages, 3081989 bytes).
+   avail lists: 2:1412,3:1135,4:249,5:888,6:63,7:16510,8:28,9:1136,10:21,11:1275
 
-PDF statistics: 102 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 131072)
+ 62443 multiletter control sequences out of 65536+600000
+ 137 fonts using 9342391 bytes
+ 128i,21n,133p,1035b,1478s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texl
+ive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}</usr/local/texlive/2022/te
+xmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2022/
+texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>{/usr/local/texlive/20
+22/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/attikis/Library
+/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></usr/local/
+texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/loca
+l/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on poster.pdf (1 page, 2228381 bytes).
+
+PDF statistics: 84 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 100000000)
 
