@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  20 NOV 2022 21:47
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  20 NOV 2022 22:09
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -2401,11 +2401,11 @@ LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <12.54> not available
 LaTeX Font Warning: Font shape `TU/txss/m/it' undefined
 (Font)              using `TU/txss/m/n' instead on input line 74.
 
-<./figures/NewspaperTitle.png, id=14, 859.794pt x 164.25pt>
-File: ./figures/NewspaperTitle.png Graphic file (type png)
-<use ./figures/NewspaperTitle.png>
-Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 74.
-(luatex.def)             Requested size: 456.32678pt x 87.17488pt.
+<./figures/Title.png, id=14, 3708.85625pt x 393.47pt>
+File: ./figures/Title.png Graphic file (type png)
+<use ./figures/Title.png>
+Package luatex.def Info: ./figures/Title.png  used on input line 74.
+(luatex.def)             Requested size: 466.4696pt x 49.48381pt.
 LaTeX Font Info:    Trying to load font information for U+ifwea on input line 7
 4.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ifsym/uifwea.fd)
@@ -2540,16 +2540,16 @@ File: ./figures/restaurants.png Graphic file (type png)
 <use ./figures/restaurants.png>
 Package luatex.def Info: ./figures/restaurants.png  used on input line 6.
 (luatex.def)             Requested size: 197.03554pt x 42.40771pt.
-) (./tex/IPPOG_v2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--20
+) (./tex/IPPOG_v3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--20
 []\TU/txss/m/sc/8.71 An-other par-ti-cle physics
  []
 
 <./figures/Fotis6-narrow.png, id=18, 1920.17375pt x 2038.61626pt>
 File: ./figures/Fotis6-narrow.png Graphic file (type png)
 <use ./figures/Fotis6-narrow.png>
-Package luatex.def Info: ./figures/Fotis6-narrow.png  used on input line 25.
-(luatex.def)             Requested size: 94.34892pt x 100.1637pt.
+Package luatex.def Info: ./figures/Fotis6-narrow.png  used on input line 22.
+(luatex.def)             Requested size: 106.14345pt x 112.66861pt.
 ) (./tex/HiggsBoson_LHC.tex
 Missing character: There is no − (U+2212) in font txss!
 Missing character: There is no − (U+2212) in font txss!
@@ -2563,7 +2563,7 @@ File: ./figures/HiggsBosonDiscoveryBW.png Graphic file (type png)
 <use ./figures/HiggsBosonDiscoveryBW.png>
 Package luatex.def Info: ./figures/HiggsBosonDiscoveryBW.png  used on input lin
 e 27.
-(luatex.def)             Requested size: 130.44244pt x 68.14168pt.
+(luatex.def)             Requested size: 129.44244pt x 67.61725pt.
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 26--28
  [] 
@@ -2604,7 +2604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--20
 <./figures/NASA-small.png, id=21, 896.34875pt x 536.0025pt>
 File: ./figures/NASA-small.png Graphic file (type png)
 <use ./figures/NASA-small.png>
-Package luatex.def Info: ./figures/NASA-small.png  used on input line 16.
+Package luatex.def Info: ./figures/NASA-small.png  used on input line 13.
 (luatex.def)             Requested size: 219.78572pt x 131.424pt.
 ) (./tex/AdsVarious.tex
 <./figures/cyprus.png, id=22, 78.2925pt x 54.9553pt>
@@ -2633,16 +2633,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--22
  []
 
 ))
-File: ./figures/NewspaperTitle.png Graphic file (type png)
-<use ./figures/NewspaperTitle.png>
-Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 84.
-(luatex.def)             Requested size: 456.32678pt x 87.17488pt.
+File: ./figures/Title.png Graphic file (type png)
+<use ./figures/Title.png>
+Package luatex.def Info: ./figures/Title.png  used on input line 84.
+(luatex.def)             Requested size: 466.4696pt x 49.48381pt.
  [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-<./figures/NewspaperTitle.png><./figures/Fotis7.png><./figures/Fotios-MinJeongKi
-mBW.jpg><./figures/restaurants.png><./figures/Fotis6-narrow.png><./figures/Higgs
-BosonDiscoveryBW.png><./figures/TopQuark2BW.jpg><./figures/NASA-small.png><./fig
-ures/cyprus.png><./figures/thkata.png><./figures/car.png>]
+<./figures/Title.png><./figures/Fotis7.png><./figures/Fotios-MinJeongKimBW.jpg><
+./figures/restaurants.png><./figures/Fotis6-narrow.png><./figures/HiggsBosonDisc
+overyBW.png><./figures/TopQuark2BW.jpg><./figures/NASA-small.png><./figures/cypr
+us.png><./figures/thkata.png><./figures/car.png>]
 \tf@nav=\write7
 
 \openout7 = poster.nav
@@ -2666,14 +2666,14 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  43780 strings out of 477250
- 381552,1977958 words of node,token memory allocated
- 4627 words of node memory still in use:
-   53 hlist, 7 vlist, 6 rule, 14 disc, 12 local_par, 4 math, 150 glue, 31 kern, 
-26 penalty, 187 glyph, 148 attribute, 67 glue_spec, 148 attribute_list, 3 write,
- 40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore n
+ 381562,1977958 words of node,token memory allocated
+ 4827 words of node memory still in use:
+   56 hlist, 7 vlist, 6 rule, 14 disc, 12 local_par, 4 math, 161 glue, 31 kern, 
+30 penalty, 187 glyph, 163 attribute, 67 glue_spec, 163 attribute_list, 3 write,
+ 40 pdf_literal, 20 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore n
 odes
-   avail lists: 2:4992,3:4390,4:483,5:1968,6:138,7:38440,8:28,9:3494,10:21,11:26
-10
+   avail lists: 1:1,2:5006,3:4375,4:501,5:1968,6:138,7:38482,8:28,9:3503,10:21,1
+1:2610
  62592 multiletter control sequences out of 65536+600000
  137 fonts using 9342391 bytes
  128i,21n,133p,1035b,1494s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2689,7 +2689,7 @@ ocal/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr/l
 ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/loca
 l/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texliv
 e/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (1 page, 6960012 bytes).
+Output written on poster.pdf (1 page, 6953115 bytes).
 
 PDF statistics: 98 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
