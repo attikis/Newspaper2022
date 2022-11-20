@@ -268,59 +268,6 @@
   #1,
 }
 
-
-
-
-\newtcolorbox{MyColumnLeft}[3][]{
-  coltext      = \MyFontColor,
-  colframe     = \MyBlockFrameColorLeft,
-  colback      = \MyBlockFillColorLeft,
-  colbacktitle = \MyBlockTitleBoxColor,
-  coltitle     = \MyHeadingsColor,
-  title        = \Large{\bfseries{#2\\}},
-  boxrule      = 0.2cm, %frame line width
-  height       = #3,
-  enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
-  enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
-  enlarge left by  = +1.5cm,  
-  enlarge right by = +0.0cm, 
-  #1,
-}
-
-\newtcolorbox{MyColumnCenter}[3][]{
-  coltext      = \MyFontColor,
-  colframe     = \MyBlockFrameColorCenter,
-  colback      = \MyBlockFillColorCenter,
-  colbacktitle = \MyBlockTitleBoxColor,
-  coltitle     = \MyHeadingsColor,
-  title        = \Large{\textbf{#2\\}},
-  boxrule      = 0.2cm, %frame line width
-  height       = #3,
-  enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
-  enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
-  enlarge left by  = +0.0cm,  
-  enlarge right by = +0.0cm, 
-   #1,
-}
-
-
-% new tcolorbox environment
-\newtcolorbox{MyColumnRight}[3][]{
-  coltext      = \MyFontColor,
-  colframe     = \MyBlockFrameColorRight,
-  colback      = \MyBlockFillColorRight,
-  colbacktitle = \MyBlockTitleBoxColor,
-  coltitle     = \MyHeadingsColor,
-  title        = \Large{\textbf{#2\\}},
-  boxrule      = 0.2cm, %frame line width
-  height       = #3,
-  enlarge top by   = +1.0cm,  %  equivalent to mdframed 'skipabove'
-  enlarge bottom by= +0.0cm,  %  equivalent to mdframed 'skipbelow'
-  enlarge left by  = -1.5cm,
-  enlarge right by = +0.0cm,
-  #1,
-}
-
 % =======================================================================
 % Block format/colour definitions
 % =======================================================================
