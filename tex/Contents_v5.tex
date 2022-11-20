@@ -1,67 +1,46 @@
+\setlength{\parskip}{1em}
+
 \begin{tikzpicture}
-%\node (Professor) at (current page.center) {\input{./tex/Professor_v5.tex}};  
-%\node[left = 0.1cm of a] (b) {\input{./tex/MultiMuons1_CDF.tex}};
-\node (Professor) at (0,0) {\input{./tex/Professor_v5.tex}};    
-\node[right = 0.2cm of Professor] (Higgs) {\input{./tex/HiggsBoson_LHC.tex}};
-%\node[above right = 0.2cm of Professor] (Multimuons2) {\input{./tex/MultiMuons2_CDF.tex}};
-%\node[left = 0.2cm of Multimuons2] (Multimuons1) {\input{./tex/MultiMuons1_CDF.tex}};
-%\node[left = 0.2cm of Multimuons1] (Higgs) {\input{./tex/HiggsBoson_LHC.tex}};
+  \node (Professor) [anchor=north west, inner sep=0pt] at (current page.north west) {\input{./tex/Professor_v5.tex}};
+  \node[right = 0.2cm of Professor] (Multimuons1) {\input{./tex/MultiMuons1_CDF.tex}};
+  \node[right = 0.2cm of Multimuons1] (Fermilab) {\input{./tex/FermilabToday_v2.tex}};
+  %\node[below = 0.2cm of Multimuons1] (Multimuons2) {\input{./tex/MultiMuons2_CDF.tex}};
+  \node[below = 0.2cm of Fermilab] (CMS-HIG-18-015) {\input{./tex/CMS-HIG-18-015.tex}};
+  \node[left = of CMS-HIG-18-015] (Higgs) {\input{./tex/HiggsBoson_LHC.tex}};
+  \node[left = of Higgs] (Top) {\input{./tex/TopQuark_Tevatron.tex}};
+
+  \node[below = 0.2cm of Higgs] (IPPOG) {\input{./tex/IPPOG_v2.tex}};
+  \node[left = 0.2cm of IPPOG] (HExtented) {\input{./tex/HExtended.tex}};
+
+  %\node[below = 0.2cm of Multimuons1] (Multimuons2) {\input{./tex/MultiMuons2_CDF.tex}};
+
+  %\node[below = 0.2cm of Multimuons1] (Multimuons2) {\input{./tex/MultiMuons2_CDF.tex}};
+  %\node[left = 0.2cm of Multimuons2] (CMS-HIG-18-015) {\input{./tex/CMS-HIG-18-015.tex}};
+
+
+%
+
+%\node[left = 0.2cm of CMS-HIG-18-015] (CMS-HIG-21-010) {\input{./tex/CMS-HIG-21-010.tex}};
+
+%\node[below = of Top] (Ads1) {\input{./tex/AdsRestaurants.tex}};
+% \input{./tex/HExtended.tex}
 \end{tikzpicture}
 
 
-%\tikz[overlay, remember picture] \node at (current page.center) {
-%
-%  \input{./tex/Professor_v4.tex}
-%};
 
-%\begin{multicols*}{2}
-%  \input{./tex/Professor_v4.tex}
-%  \columnbreak  
-%  \input{./tex/TopQuark_Tevatron.tex}  
-%  \input{./tex/AdsRestaurants.tex}
-%  \input{./tex/HiggsBoson_LHC.tex}
-%  %\input{./tex/MultiMuons1_CDF.tex} 
-%  %\input{./tex/CMS-HIG-18-015}
-%  %\input{./tex/CMS-HIG-21-010}
-%\end{multicols*}
-%\pagebreak
-%
-%  \begin{multicols*}{3}
-%    %\input{./tex/FermilabToday.tex}  
-%  \input{./tex/AdsRestaurants.tex}
-%    \columnbreak
-%  \input{./tex/AdsRestaurants.tex}
-%  %\input{./tex/TopQuark_Tevatron.tex}  
-%  %\input{./tex/MultiMuons1_CDF.tex}
-%  %\input{./tex/AdsRestaurants.tex}  
-%  \input{./tex/MultiMuons2_CDF.tex}
-%\end{multicols*}
+\begin{comment}
+\begin{tikzpicture}
+  \node (Professor) [anchor=north west, inner sep=0pt] at (current page.north west) {\input{./tex/Professor_v5.tex}};
+\node[right = 0.2cm of Professor] (Higgs) {\input{./tex/HiggsBoson_LHC.tex}};
+\node[above = of Higgs] (Top) {\input{./tex/TopQuark_Tevatron.tex}};
+%\node[below = 0.2cm of Higgs] (Fermilab) {\input{./tex/FermilabToday.tex}};
+\node[below = 0.2cm of Higgs] (Multimuons1) {\input{./tex/MultiMuons1_CDF.tex}};
+\node[below = 0.2cm of Multimuons1] (Multimuons2) {\input{./tex/MultiMuons2_CDF.tex}};
+\node[left = 0.2cm of Multimuons2] (CMS-HIG-18-015) {\input{./tex/CMS-HIG-18-015.tex}};
+%\node[left = 0.2cm of CMS-HIG-18-015] (CMS-HIG-21-010) {\input{./tex/CMS-HIG-21-010.tex}};
+%\node[below = 0.2cm of CMS-HIG-21-010] (IPPOG) {\input{./tex/IPPOG.tex}};
 
-
-%\input{./tex/AdsVarious.tex}
-% \input{./tex/AdsRestaurant.tex}
-% \input{./tex/CMS-HIG-18-015}
-% \input{./tex/CMS-HIG-21-010}
-% \input{./tex/FermilabToday.tex}
+%\node[below = of Top] (Ads1) {\input{./tex/AdsRestaurants.tex}};
 % \input{./tex/HExtended.tex}
-% \input{./tex/HiggsBoson_LHC.tex}
-% \input{./tex/MultiMuons1_CDF.tex} 
-% \input{./tex/MultiMuons2_CDF.tex}  
-% \input{./tex/TopQuark_Tevatron.tex}
-% \input{./tex/ads.tex}
-
-
-%   \begin{multicols*}{3}
-%    \input{./tex/MultiMuons1_CDF.tex}
-%    \columnbreak
-%    \input{./tex/Professor_v4.tex}
-%    \columnbreak
-%    \input{./tex/MultiMuons2_CDF.tex}  
-%  %   \vfill
-%  %   \input{./tex/CMS-HIG-18-015}
-%  %   
-%  %   \columnbreak
-%  %   \input{./tex/TopQuark_Tevatron.tex}
-%  
-%   \end{multicols*}
-    
+\end{tikzpicture}
+\end{comment}
