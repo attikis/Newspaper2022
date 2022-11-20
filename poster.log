@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  20 NOV 2022 20:10
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.11.5)  20 NOV 2022 20:22
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -2385,4 +2385,301 @@ File: utxsyc.fd 2000/12/15 v3.1
 LaTeX Font Info:    Trying to load font information for T1+mak on input line 74
 .
 
-(/usr/local/texlive/2022/texmf-dist/
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kerkis/t1mak.fd)
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 11.2859pt on input line 74.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 7.9001pt on input line 74.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 5.64294pt on input line 74.
+
+
+LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <12.54> not available
+(Font)              size <12> substituted on input line 74.
+
+
+LaTeX Font Warning: Font shape `TU/txss/m/it' undefined
+(Font)              using `TU/txss/m/n' instead on input line 74.
+
+<./figures/NewspaperTitle.png, id=14, 859.794pt x 164.25pt>
+File: ./figures/NewspaperTitle.png Graphic file (type png)
+<use ./figures/NewspaperTitle.png>
+Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 74.
+(luatex.def)             Requested size: 456.32678pt x 87.17488pt.
+LaTeX Font Info:    Trying to load font information for U+ifwea on input line 7
+4.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ifsym/uifwea.fd)
+
+LaTeX Font Warning: Font shape `TU/txss/b/n' undefined
+(Font)              using `TU/txss/m/n' instead on input line 74.
+
+(./tex/Contents_v5.tex (./tex/Professor_v5.tex
+LaTeX Font Info:    Calculating math sizes for size <8.71> on input line 5.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.27448pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.7921pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.13722pt on input line 5.
+LaTeX Font Info:    Font shape `OML/mak/m/it' will be
+(Font)              scaled to size 7.83894pt on input line 5.
+LaTeX Font Info:    Font shape `OML/mak/m/it' will be
+(Font)              scaled to size 5.48723pt on input line 5.
+LaTeX Font Info:    Font shape `OML/mak/m/it' will be
+(Font)              scaled to size 3.91946pt on input line 5.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 7.83894pt on input line 5.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 5.48723pt on input line 5.
+LaTeX Font Info:    Font shape `T1/mak/m/n' will be
+(Font)              scaled to size 3.91946pt on input line 5.
+<./figures/Fotis7.png, id=15, 869.2475pt x 482.80376pt>
+File: ./figures/Fotis7.png Graphic file (type png)
+<use ./figures/Fotis7.png>
+Package luatex.def Info: ./figures/Fotis7.png  used on input line 37.
+(luatex.def)             Requested size: 154.3695pt x 85.73694pt.
+
+
+LaTeX Font Warning: Font shape `TU/txss/m/sc' undefined
+(Font)              using `TU/txss/m/n' instead on input line 58.
+
+) (./tex/MultiMuons1_CDF.tex
+Underfull \hbox (badness 5741) in paragraph at lines 4--35
+\TU/txss/m/sc/8.71 i-cated dimuon trig-
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 4--35
+\TU/txss/m/sc/8.71 suc-cess-fully mod-eled
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 4--35
+\TU/txss/m/sc/8.71 ger, and event re-
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 4--35
+\TU/txss/m/sc/8.71 matic prop-er-ties of
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 4--35
+\TU/txss/m/sc/8.71 sented in this pa-
+ []
+
+) (./tex/FermilabToday_v2.tex
+Underfull \hbox (badness 5607) in paragraph at lines 4--9
+\TU/txss/m/sc/8.71 in ad-di-tion to solv-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\TU/txss/m/sc/8.71 ing these prob-lems,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\TU/txss/m/sc/8.71 re-searchers ob-served
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 10--27
+\TU/txss/m/sc/8.71 a re-cent CDF mea-
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 10--27
+\TU/txss/m/sc/8.71 found to agree well
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--27
+\TU/txss/m/sc/8.71 with the the-o-ret-i-cal
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 10--27
+\TU/txss/m/sc/8.71 ments could be ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--27
+\TU/txss/m/sc/8.71 of these back-ground
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--27
+\TU/txss/m/sc/8.71 events, whim-si-cally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--27
+\TU/txss/m/sc/8.71 pre-vi-ously iden-ti-fied.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--27
+\TU/txss/m/sc/8.71 events con-tain more
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--27
+\TU/txss/m/sc/8.71 pected from known
+ []
+
+<./figures/Fotios-MinJeongKimBW.jpg, id=16, 468.75125pt x 161.60374pt>
+File: ./figures/Fotios-MinJeongKimBW.jpg Graphic file (type jpg)
+<use ./figures/Fotios-MinJeongKimBW.jpg>
+Package luatex.def Info: ./figures/Fotios-MinJeongKimBW.jpg  used on input line
+ 42.
+(luatex.def)             Requested size: 165.06277pt x 56.9049pt.
+) (./tex/IPPOG_v2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
+[]\TU/txss/m/sc/8.71 An-other par-ti-cle physics
+ []
+
+<./figures/Fotis6-narrow.png, id=17, 1920.17375pt x 2038.61626pt>
+File: ./figures/Fotis6-narrow.png Graphic file (type png)
+<use ./figures/Fotis6-narrow.png>
+Package luatex.def Info: ./figures/Fotis6-narrow.png  used on input line 25.
+(luatex.def)             Requested size: 94.34892pt x 100.1637pt.
+) (./tex/HiggsBoson_LHC.tex
+Missing character: There is no − (U+2212) in font txss!
+Missing character: There is no − (U+2212) in font txss!
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--24
+[]\TU/txss/m/sc/8.71 Re-sults are pre-sented from
+ []
+
+<./figures/HiggsBosonDiscoveryBW.png, id=18, 2055.68pt x 1074.0125pt>
+File: ./figures/HiggsBosonDiscoveryBW.png Graphic file (type png)
+<use ./figures/HiggsBosonDiscoveryBW.png>
+Package luatex.def Info: ./figures/HiggsBosonDiscoveryBW.png  used on input lin
+e 27.
+(luatex.def)             Requested size: 130.44244pt x 68.14168pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 26--28
+ [] 
+ []
+
+) (./tex/TopQuark_Tevatron.tex
+<./figures/TopQuark2BW.jpg, id=19, 2569.6pt x 1713.40125pt>
+File: ./figures/TopQuark2BW.jpg Graphic file (type jpg)
+<use ./figures/TopQuark2BW.jpg>
+Package luatex.def Info: ./figures/TopQuark2BW.jpg  used on input line 19.
+(luatex.def)             Requested size: 130.44244pt x 86.95615pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 17--20
+ [] 
+ []
+
+) (./tex/CMS-HIG-18-015.tex
+Underfull \hbox (badness 5578) in paragraph at lines 3--20
+\TU/txss/m/sc/8.71 proton col-li-sion data
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 3--20
+\TU/txss/m/sc/8.71 de-tec-tor in 2016 at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--20
+\TU/txss/m/sc/8.71 grated lu-mi-nos-ity of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--20
+\TU/txss/m/sc/8.71 above the ex-pected
+ []
+
+) (./tex/MultiMuons2_CDF.tex
+Underfull \hbox (badness 7685) in paragraph at lines 3--26
+\TU/txss/m/sc/8.71 matic prop-er-ties of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--26
+\TU/txss/m/sc/8.71 states cascade-decay
+ []
+
+) (./tex/CMS-HIG-21-010.tex) (./tex/NASA_v1.tex
+Overfull \hbox (6.69167pt too wide) in paragraph at lines 2--10
+\TU/txss/m/sc/8.71 The event was or-ga-nized by the Uni-ver-sity of Cyprus
+ []
+
+<./figures/NASA-small.png, id=20, 896.34875pt x 536.0025pt>
+File: ./figures/NASA-small.png Graphic file (type png)
+<use ./figures/NASA-small.png>
+Package luatex.def Info: ./figures/NASA-small.png  used on input line 13.
+(luatex.def)             Requested size: 155.35268pt x 92.894pt.
+) (./tex/AdsRestaurants.tex
+<./figures/restaurants.png, id=21, 218.781pt x 47.085pt>
+File: ./figures/restaurants.png Graphic file (type png)
+<use ./figures/restaurants.png>
+Package luatex.def Info: ./figures/restaurants.png  used on input line 6.
+(luatex.def)             Requested size: 197.03554pt x 42.40771pt.
+))
+File: ./figures/NewspaperTitle.png Graphic file (type png)
+<use ./figures/NewspaperTitle.png>
+Package luatex.def Info: ./figures/NewspaperTitle.png  used on input line 84.
+(luatex.def)             Requested size: 456.32678pt x 87.17488pt.
+ [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+<./figures/NewspaperTitle.png><./figures/Fotis7.png><./figures/Fotios-MinJeongKi
+mBW.jpg><./figures/Fotis6-narrow.png><./figures/HiggsBosonDiscoveryBW.png><./fig
+ures/TopQuark2BW.jpg><./figures/NASA-small.png><./figures/restaurants.png>]
+\tf@nav=\write7
+
+\openout7 = poster.nav
+\tf@toc=\write8
+
+\openout8 = poster.toc
+\tf@snm=\write9
+
+\openout9 = poster.snm
+ (./poster.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.54pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `poster.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 43755 strings out of 477250
+ 476924,1977958 words of node,token memory allocated
+ 4627 words of node memory still in use:
+   53 hlist, 7 vlist, 6 rule, 14 disc, 12 local_par, 4 math, 150 glue, 31 kern, 
+26 penalty, 187 glyph, 148 attribute, 67 glue_spec, 148 attribute_list, 3 write,
+ 40 pdf_literal, 14 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore n
+odes
+   avail lists: 1:1,2:4994,3:4372,4:495,5:2064,6:135,7:40327,8:28,9:3569,10:21,1
+1:2721
+ 62585 multiletter control sequences out of 65536+600000
+ 137 fonts using 9342391 bytes
+ 128i,21n,133p,1035b,1494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}{/usr/local
+/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/te
+xmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2022/
+texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf>{/usr/local/texlive/20
+22/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<</Users/attikis/Library
+/texlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></usr/local/
+texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/loca
+l/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on poster.pdf (1 page, 6803104 bytes).
+
+PDF statistics: 92 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 131072)
+ 21 words of extra memory for PDF output out of 10000 (max. 100000000)
+

@@ -155,6 +155,22 @@
   #1,
 }
 
+\newtcolorbox{MyAd}[1][]{
+  parbox       = false,
+  coltext      = black,
+  colframe     = black, %gray!50, %\MyBlockFrameColorLeft,
+  colback      = \MyBlockFillColorRight, %white, %\MyBlockFillColorLeft,
+  boxrule      = 0pt, %frame line width
+  opacityback  = 1.0, % 1.0 means totally transparent, 0.0 means totally opaque
+  top          = -0.00cm,
+  bottom       = +0.00cm,
+  left         = +0.00cm,
+  right        = +0.00cm,
+  arc          = +0.00cm, % 0.0cm for non-rounded corners!
+  sharp corners,
+  #1,
+}
+
 % new tcolorbox environment
 \newtcolorbox{MyArticleDotted}[2][]{
   coltext      = black,
