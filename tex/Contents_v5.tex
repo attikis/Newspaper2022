@@ -1,21 +1,20 @@
 \setlength{\parskip}{1em}
 
 \begin{tikzpicture}
-  \node (Professor) [anchor=north west, inner sep=0pt] at (current page.north) {\input{./tex/Professor_v5.tex}};
+  \node (Professor) [anchor=north west, inner sep=0pt] at (current page.north) {\input{./tex/Professor_v6.tex}};
   \node[left = 0.1 of Professor] (Fermilab) {\input{./tex/FermilabToday_v2.tex}};
   \node[right = 0.1 of Professor, yshift=0cm, xshift=0cm] (Multimuons1) {\input{./tex/MultiMuons1_CDF.tex}};
+  \node[below = 0.1 of Multimuons1] (Ads1) {\input{./tex/AdsRestaurants.tex}};
   %
   \node[below = 0.1 of Professor] (IPPOG) {\input{./tex/IPPOG_v2.tex}};
   \node[left = 0.1 of IPPOG] (Higgs) {\input{./tex/HiggsBoson_LHC.tex}};
   \node[right = 0.1 of IPPOG] (Top) {\input{./tex/TopQuark_Tevatron.tex}};
   %
   \node[below = 0.1 of Higgs] (CMS-HIG-18-015) {\input{./tex/CMS-HIG-18-015.tex}};  
+  %\node[left = 0.1 of CMS-HIG-18-015] (Nespresso) {\input{./tex/AdsNespresso.tex}};  
   \node[right = 0.1 of CMS-HIG-18-015] (NASA) {\input{./tex/NASA_v2.tex}};
   %\node[right = 0.1 of CMS-HIG-18-015] (Multimuons2) {\input{./tex/MultiMuons2_CDF.tex}};
   \node[right = 0.1 of NASA] (Ads2) {\input{./tex/AdsVarious.tex}};
-    \node[right = 0.1 of Ads2] (CMS-HIG-21-010) {\input{./tex/CMS-HIG-21-010.tex}};
-  %\node[right = 0.1 of Ads2] (NASA) {\input{./tex/NASA_v1.tex}};
- \node[below = 0.1 of Multimuons1] (Ads1) {\input{./tex/AdsRestaurants.tex}};
+  \node[right = 0.1 of Ads2] (CMS-HIG-21-010) {\input{./tex/CMS-HIG-21-010.tex}};
 \end{tikzpicture}
-
 %  \node[left = 0.2cm of IPPOG] (HExtented) {\input{./tex/HExtended.tex}};
