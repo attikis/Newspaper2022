@@ -28,9 +28,15 @@
         %
         \begin{column}{0.20\paperwidth}
           \begin{center}
-            \Large{\Sun} \\
-            \Large\textbf{20 \textdegree C} \quad \Large 26 \textdegree C \quad \textcolor{black!40}{13 \textdegree C} \\ 
-            \Large Nasdaq \quad +0.1\% \, $\uparrow$
+          \Large
+          % \textcolor{yellow}{\Sun} 20 \tccentigrade \qquad 26 \tccentigrade \quad 13 \tccentigrade \\
+          % Dow \quad \textcolor{green}{+0.1\%} \quad $\uparrow$
+          %\Sun \quad 20 \tccentigrade \quad 26 \tccentigrade \quad 13 \tccentigrade \\ 
+          % https://www.physicsread.com/latex-degree-celsius-symbol/
+          \Large{\Sun} \\
+          \bf{20 \textdegree C}\quad 26 \textdegree C \quad
+          \textcolor{black!50}{13 \textdegree C} \\ 
+          Nasdaq \quad +0.1\% \, $\uparrow$
           \end{center}
         \end{column}
       \end{columns}

@@ -877,11 +877,11 @@ tionary-English.dict)
 tionary-English.dict)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fmtcount/fc-english.def)
 (./poster.nav)
-Overfull \hbox (1.48752pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.48752pt too wide) in paragraph at lines 60--60
 [][][][]  
 
 LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <12.54> not available
-(Font)              size <12> substituted on input line 73.
+(Font)              size <12> substituted on input line 60.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ifsym/uifwea.fd)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd)
@@ -951,26 +951,27 @@ LaTeX Font Warning: Size substitutions with differences
 
 )
 (see the transcript file for additional information)
- 5032 words of node memory still in use:
-   60 hlist, 7 vlist, 6 rule, 15 disc, 14 local_par, 4 math, 174 glue, 26 kern,
- 32 penalty, 193 glyph, 173 attribute, 67 glue_spec, 173 attribute_list, 3 writ
+ 5052 words of node memory still in use:
+   60 hlist, 7 vlist, 6 rule, 15 disc, 14 local_par, 4 math, 175 glue, 27 kern,
+ 32 penalty, 193 glyph, 175 attribute, 67 glue_spec, 175 attribute_list, 3 writ
 e, 40 pdf_literal, 18 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restor
 e nodes
-   avail lists: 1:1,2:5040,3:4363,4:531,5:2028,6:156,7:38773,8:28,9:3497,10:21,
-11:2625
+   avail lists: 1:2,2:5042,3:4363,4:531,5:2001,6:156,7:38542,8:28,9:3494,10:21,
+11:2613
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
 xlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<</Users/attikis/Library/te
 xlive/2022/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.752pk>></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texl
 ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texliv
 e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/
-2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022
-/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2022/texmf-di
-st/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
-ype1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
-/lm/lmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx1
-0.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso9.pfb>
-Output written on poster.pdf (1 page, 7205087 bytes).
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
+lm/lmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso9.pfb>
+Output written on poster.pdf (1 page, 7211828 bytes).
 Transcript written on poster.log.
