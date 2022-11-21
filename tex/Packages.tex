@@ -1,24 +1,28 @@
 % =======================================================================
 %% Font packages (see http://www.ctan.org/topic/font-greek)
 % =======================================================================
+% \usepackage{fontspec}
+% \usepackage{lmodern} % ruins some characters (for example, \Delta in math mode)
+% \usepackage{kmath}   % use kmath for better math letters!
+
 % \usepackage[english,greek]{babel} 
 % \usepackage[utf8]{inputenc}
 % %\usepackage{lmodern}     %ruins some characters (for example, \Delta in math mode)
-% \usepackage{kmath,kerkis} %use kmath for better math letters!
+% \usepackage{kmath,kerkis}
 % \usepackage[T1]{fontenc}
 
-\usepackage{fontspec}
-%\setsansfont{Liberation Serif}
-%\usepackage[english]{babel} 
-%\usepackage[utf8]{inputenc}
-\usepackage{lmodern}
-\usepackage{kmath}
-%\usepackage[T1]{fontenc}
+%\usefonttheme{serif}     % Font theme: serif
+%\usepackage{ccfonts}     % Font family: Concrete Math
+\usepackage[T1]{fontenc}
+
+% https://tex.stackexchange.com/questions/211200/where-can-i-find-all-the-themes-in-usefonttheme
+\usetheme{CambridgeUS} %Berlin}
+% \usepackage{helvet}
 
 % =======================================================================
 %% Other packages
 % =======================================================================
-\usepackage[ddmmyyyy, dayofweek, 24hr]{datetime} % usage: \longdate
+\usepackage[ddmmyyyy, dayofweek, 24hr, UKenglish]{datetime} % usage: \longdate
 \usepackage{tabularx}
 \usepackage{float}
 \usepackage[countmax]{subfloat}
